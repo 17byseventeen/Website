@@ -3,7 +3,7 @@ const journeyData = {
     1: { 
         status: 'in-progress', 
         title: 'No Poverty',
-        content: 'Planning fundraising, food drives, and clothing drives to help those in need in my community.',
+        content: 'Planning fundraising and clothing drives to help those in need and reduce poverty in my community.',
         impact: 'Working to address poverty through direct community support and resource distribution.',
         date: 'September 2024'
     },
@@ -24,16 +24,16 @@ const journeyData = {
     4: { 
         status: 'completed', 
         title: 'Quality Education',
-        content: 'Completed educational initiatives and tutoring programs to promote quality education.',
+        content: 'Completed quality education through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program, educating kids about sustainable alternatives and environmental science.',
         impact: 'Helped students improve their academic performance and access to learning resources.',
         date: 'September 2024'
     },
     11: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Sustainable Cities and Communities',
-        content: 'Completed sustainable community development projects and urban planning initiatives.',
-        impact: 'Contributed to making our community more sustainable and livable for all residents.',
-        date: 'February 2024'
+        content: 'Upcoming sustainable community development projects and urban planning initiatives.',
+        impact: 'Planning initiatives to foster sustainable urban development and community resilience.',
+        date: 'February 2025'
     },
     12: { 
         status: 'completed', 
@@ -50,11 +50,11 @@ const journeyData = {
         date: 'April 2024'
     },
     15: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Life on Land',
-        content: 'Completed biodiversity conservation and land protection projects.',
-        impact: 'Contributed to protecting local ecosystems and promoting biodiversity conservation.',
-        date: 'May 2024'
+        content: 'Upcoming biodiversity conservation and land protection projects to help protect life on land.',
+        impact: 'Planning initiatives to protect and restore terrestrial ecosystems and promote sustainable land use.',
+        date: 'May 2025'
     },
     17: { 
         status: 'completed', 

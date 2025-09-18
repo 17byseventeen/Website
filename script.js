@@ -21,21 +21,21 @@ const sdgData = [
 
 // Progress data for each SDG
 const progressData = {
-    1: { status: 'in-progress', content: 'Planning fundraising, food drives, and clothing drives to help those in need in my community.' },
+    1: { status: 'in-progress', content: 'Planning fundraising and clothing drives to help those in need and reduce poverty in my community.' },
     2: { status: 'in-progress', content: 'Working on initiatives to address hunger and food security in my local area.' },
     3: { status: 'in-progress', content: 'Promoting good health and well-being through awareness campaigns and wellness initiatives in my community.' },
-    4: { status: 'completed', content: 'Completed educational initiatives and tutoring programs to promote quality education.' },
+    4: { status: 'completed', content: 'Completed quality education through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program, educating kids about sustainable alternatives and environmental science.' },
     5: { status: 'pending', content: 'Upcoming initiatives to promote gender equality and empower women and girls.' },
     6: { status: 'pending', content: 'Planned water conservation and sanitation awareness campaigns.' },
     7: { status: 'pending', content: 'Upcoming renewable energy education and advocacy projects.' },
     8: { status: 'pending', content: 'Planned economic development and job creation initiatives.' },
     9: { status: 'pending', content: 'Upcoming innovation and infrastructure development projects.' },
     10: { status: 'pending', content: 'Planned initiatives to reduce inequalities in my community.' },
-    11: { status: 'completed', content: 'Completed sustainable community development projects and urban planning initiatives.' },
+    11: { status: 'pending', content: 'Upcoming sustainable community development projects and urban planning initiatives.' },
     12: { status: 'completed', content: 'Completed the "Cardboard for Kitty" fundraiser with Brilliant Labs and RedHead Strays, promoting responsible consumption and sustainable practices.' },
     13: { status: 'completed', content: 'Completed climate action through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program and experimenting with different bio-making recipes to create more sustainable and earth-friendly options opposed to plastic bags or single-use plastic things.' },
     14: { status: 'pending', content: 'Upcoming ocean conservation and marine protection initiatives.' },
-    15: { status: 'completed', content: 'Completed biodiversity conservation and land protection projects.' },
+    15: { status: 'pending', content: 'Upcoming biodiversity conservation and land protection projects to help protect life on land.' },
     16: { status: 'pending', content: 'Planned peace-building and justice initiatives in my community.' },
     17: { status: 'completed', content: 'Completed partnership building with organizations like Brilliant Labs and RedHead Strays for collaborative sustainable development projects.' }
 };
