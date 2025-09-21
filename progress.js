@@ -50,11 +50,11 @@ const journeyData = {
         date: 'April 2024'
     },
     15: { 
-        status: 'pending', 
+        status: 'completed', 
         title: 'Life on Land',
-        content: 'Upcoming biodiversity conservation and land protection projects to help protect life on land.',
-        impact: 'Planning initiatives to protect and restore terrestrial ecosystems and promote sustainable land use.',
-        date: 'May 2025'
+        content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!',
+        impact: 'Helped protect local ecosystems and marine life by removing harmful waste from the beach, contributing to cleaner oceans and healthier land environments.',
+        date: 'September 2024'
     },
     17: { 
         status: 'completed', 

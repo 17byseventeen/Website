@@ -35,7 +35,7 @@ const progressData = {
     12: { status: 'completed', content: 'Completed the "Cardboard for Kitty" fundraiser with Brilliant Labs and RedHead Strays, promoting responsible consumption and sustainable practices.' },
     13: { status: 'completed', content: 'Completed climate action through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program and experimenting with different bio-making recipes to create more sustainable and earth-friendly options opposed to plastic bags or single-use plastic things.' },
     14: { status: 'pending', content: 'Upcoming ocean conservation and marine protection initiatives.' },
-    15: { status: 'pending', content: 'Upcoming biodiversity conservation and land protection projects to help protect life on land.' },
+    15: { status: 'completed', content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!' },
     16: { status: 'pending', content: 'Planned peace-building and justice initiatives in my community.' },
     17: { status: 'completed', content: 'Completed partnership building with organizations like Brilliant Labs and RedHead Strays for collaborative sustainable development projects.' }
 };
