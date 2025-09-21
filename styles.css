@@ -135,7 +135,7 @@ body {
 
 /* Hero Section */
 .hero {
-    min-height: 15vh;
+    min-height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +143,7 @@ body {
     background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
     overflow: hidden;
     margin-top: 70px;
-    padding: 2rem 0;
+    padding: 2.5rem 0;
 }
 
 .hero-background {
@@ -1993,9 +1993,9 @@ body {
     
     /* Hero section mobile responsiveness for tablets */
     .hero {
-        min-height: 12vh;
+        min-height: 16vh;
         margin-top: 65px;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     }
     
     .hero-content {
@@ -2073,9 +2073,9 @@ body {
     
     /* Hero section mobile responsiveness */
     .hero {
-        min-height: 10vh;
+        min-height: 14vh;
         margin-top: 60px;
-        padding: 0.8rem 0;
+        padding: 1.2rem 0;
     }
     
     .hero-content {
