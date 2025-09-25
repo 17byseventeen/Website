@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
     <title>Media Gallery - 17 by 17 Challenge</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,13 +67,19 @@
             <div class="featured-section">
                 <h3>Featured Video</h3>
                 <div class="featured-video">
-                    <div class="video-container">
-                        <video controls width="100%" height="auto">
-                            <source src="videos/0920.mov" type="video/quicktime">
-                            Your browser does not support the video tag.
-                        </video>
-                        <p class="video-caption">My SDG Journey Highlights</p>
-                    </div>
+                            <div class="video-container">
+                                <video controls width="100%" height="auto">
+                                    <source src="videos/0920.mov" type="video/quicktime">
+                                    <source src="videos/0920.mp4" type="video/mp4">
+                                    <source src="videos/0920.webm" type="video/webm">
+                                    <div style="background: #f0f0f0; padding: 2rem; text-align: center; border-radius: 8px;">
+                                        <i class="fas fa-video" style="font-size: 2rem; color: #666; margin-bottom: 1rem;"></i>
+                                        <p style="margin: 0; color: #666;">My SDG Journey Highlights</p>
+                                        <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; color: #999;">Video format not supported in this browser</p>
+                                    </div>
+                                </video>
+                                <p class="video-caption">My SDG Journey Highlights</p>
+                            </div>
                 </div>
             </div>
 
@@ -141,17 +149,28 @@
                         </div>
                         <div class="media-items">
                             <div class="media-item video-item">
-                                <div class="video-container-small">
-                                    <video controls width="100%" height="auto">
-                                        <source src="videos/0920.mov" type="video/quicktime">
-                                        Your browser does not support the video tag.
-                                    </video>
-                                    <p class="video-caption-small">Dominion Park Beach Clean-up</p>
-                                </div>
+                                    <div class="video-container-small">
+                                        <video controls width="100%" height="auto">
+                                            <source src="videos/0920.mov" type="video/quicktime">
+                                            <source src="videos/0920.mp4" type="video/mp4">
+                                            <source src="videos/0920.webm" type="video/webm">
+                                            <div style="background: #f0f0f0; padding: 1rem; text-align: center; border-radius: 6px;">
+                                                <i class="fas fa-video" style="font-size: 1.5rem; color: #666; margin-bottom: 0.5rem;"></i>
+                                                <p style="margin: 0; color: #666; font-size: 0.8rem;">Dominion Park Beach Clean-up</p>
+                                                <p style="margin: 0.3rem 0 0 0; font-size: 0.7rem; color: #999;">Video format not supported</p>
+                                            </div>
+                                        </video>
+                                        <p class="video-caption-small">Dominion Park Beach Clean-up</p>
+                                    </div>
                             </div>
                             <div class="media-item photo-item">
                                 <div class="photo-container">
-                                    <img src="media-images/IMG_4425.HEIC" alt="Beach Clean-up with Willow McGrath" class="media-photo">
+                                    <img src="media-images/IMG_4425.HEIC" alt="Beach Clean-up with Willow McGrath" class="media-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <div style="display:none; background: #f0f0f0; padding: 2rem; text-align: center; border-radius: 8px;">
+                                        <i class="fas fa-image" style="font-size: 2rem; color: #666; margin-bottom: 1rem;"></i>
+                                        <p style="margin: 0; color: #666;">Beach Clean-up with Willow McGrath</p>
+                                        <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; color: #999;">Image format not supported in this browser</p>
+                                    </div>
                                     <p class="photo-caption">World Clean-up Day with Willow McGrath</p>
                                 </div>
                             </div>
