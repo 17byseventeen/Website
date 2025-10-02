@@ -67,18 +67,13 @@
             <div class="featured-section">
                 <h3>Featured Video</h3>
                 <div class="featured-video">
-                            <div class="video-container">
-                                <video controls width="100%" height="auto">
-                                    <source src="videos/Truth and Reconciliation 17by17 Video.mov" type="video/quicktime">
-                                    <source src="videos/Truth and Reconciliation 17by17 Video.mp4" type="video/mp4">
-                                    <source src="videos/Truth and Reconciliation 17by17 Video.webm" type="video/webm">
-                                    <div style="background: #f0f0f0; padding: 2rem; text-align: center; border-radius: 8px;">
-                                        <i class="fas fa-video" style="font-size: 2rem; color: #666; margin-bottom: 1rem;"></i>
-                                        <p style="margin: 0; color: #666;">Truth and Reconciliation Video</p>
-                                        <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; color: #999;">Video format not supported in this browser</p>
-                                    </div>
-                                </video>
-                                <p class="video-caption">Truth and Reconciliation Video</p>
+                            <div class="video-container" id="featured-video-container">
+                                <div id="youtube-video-placeholder" style="background: #f0f0f0; padding: 2rem; text-align: center; border-radius: 8px;">
+                                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: #666; margin-bottom: 1rem;"></i>
+                                    <p style="margin: 0; color: #666;">Loading latest video...</p>
+                                    <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; color: #999;">Fetching from YouTube</p>
+                                </div>
+                                <p class="video-caption" id="video-caption">Latest Video</p>
                             </div>
                 </div>
             </div>
