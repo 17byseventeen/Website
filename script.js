@@ -147,6 +147,12 @@ function toggleMobileNav() {
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Update copyright year
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
     // Initialize countdown
     updateCountdown();
     setInterval(updateCountdown, 1000);

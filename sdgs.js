@@ -55,6 +55,12 @@ function toggleMobileNav() {
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Update copyright year
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
     // Create educational SDG grid
     createEducationalSDGGrid();
 

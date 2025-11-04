@@ -8,6 +8,12 @@ function toggleMobileNav() {
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Update copyright year
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
     // Mobile menu functionality
     const hamburger = document.querySelector('.hamburger');
     if (hamburger) {
