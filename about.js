@@ -77,7 +77,7 @@ function createTeamGrid() {
         }
         
         let socialHTML = '';
-        if (member.social) {
+        if (member.social && (member.social.instagram || member.social.tiktok || member.social.youtube || member.social.email)) {
             socialHTML = '<div class="team-member-social">';
             if (member.social.instagram) {
                 socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
@@ -136,7 +136,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Create team grid
+    console.log('Team data loaded:', teamData.length, 'members');
     createTeamGrid();
+    console.log('Team grid created');
 });
 
 
