@@ -85,14 +85,23 @@ function createSDGWheel() {
         // Add status class based on progress
         const progress = progressData[sdg.id];
         if (progress) {
+            // Remove any existing status classes first
+            segment.classList.remove('completed', 'in-progress', 'pending');
+            // Add the current status class
             segment.classList.add(progress.status);
             // For pending goals, override the background color to grey
             if (progress.status === 'pending') {
                 segment.style.background = 'var(--sdg-grey)';
+            } else {
+                // For completed and in-progress goals, ensure original SDG color is used
+                segment.style.background = sdg.color;
             }
-            // For completed and in-progress goals, keep their original SDG color
-            // (the background is already set to the SDG color above)
+            // Debug log for SDG 1
+            if (sdg.id === 1) {
+                console.log('SDG 1 status:', progress.status, 'Class added:', segment.classList.toString());
+            }
         } else {
+            segment.classList.remove('completed', 'in-progress');
             segment.classList.add('pending');
             segment.style.background = 'var(--sdg-grey)';
         }
