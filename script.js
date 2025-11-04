@@ -21,7 +21,7 @@ const sdgData = [
 
 // Progress data for each SDG
 const progressData = {
-    1: { status: 'in-progress', content: 'Planning fundraising and clothing drives to help those in need and reduce poverty in my community.' },
+    1: { status: 'completed', content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.' },
     2: { status: 'in-progress', content: 'Working on initiatives to address hunger and food security in my local area.' },
     3: { status: 'in-progress', content: 'Promoting good health and well-being through awareness campaigns and wellness initiatives in my community.' },
     4: { status: 'completed', content: 'Completed quality education through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program, educating kids about sustainable alternatives and environmental science.' },

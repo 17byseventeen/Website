@@ -1,11 +1,11 @@
 // Progress data for journey page
 const journeyData = {
     1: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'No Poverty',
-        content: 'Planning fundraising and clothing drives to help those in need and reduce poverty in my community.',
-        impact: 'Working to address poverty through direct community support and resource distribution.',
-        date: 'September 2024'
+        content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.',
+        impact: 'Collected and distributed clothing to help those in need, directly addressing poverty through community support and resource distribution.',
+        date: 'November 2024'
     },
     2: { 
         status: 'in-progress', 
