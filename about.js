@@ -38,6 +38,15 @@ const teamData = [
         social: {
             // Add social media links if available
         }
+    },
+    {
+        name: "Olivia Cheng",
+        role: "Ontario Representative for 17 By Seventeen",
+        bio: "My name is Olivia Cheng and I'm a grade 11 student in Ontario. I'm passionate about the arts, environmental stewardship, and building connections in my community. I run a youth-led art nonprofit that provides free art lessons to underprivileged students in Ontario because I believe creativity and a welcoming space can inspire people to view the world with possibility. I've represented Canadian and global youth on the topic of nature-based education at the National Framework for Environmental Learning as well as the IUCN World Conservation Congress. From being a part of my school's sustainability council to organizing the annual student-body art show, I am motivated to highlight the power of youth engagement. As the Ontario representative for 17 By Seventeen, I'm excited to use my strengths to grow a network of Canadian youth dedicated to completing the UN SDGs.",
+        photo: "images/olivia-photo.jpg",
+        social: {
+            // Add social media links if available
+        }
     }
     // Add more team members here following this format:
     // {

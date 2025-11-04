@@ -300,7 +300,7 @@ body {
 }
 
 .sdg-square.completed {
-    animation: none;
+    animation: none !important;
 }
 
 .sdg-square.in-progress {
