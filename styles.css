@@ -935,7 +935,7 @@ body {
 .team-member-photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: var(--border-radius);
     object-fit: cover;
     object-position: center 15%;
     margin: 0 auto 1.5rem;
@@ -956,7 +956,7 @@ img[alt="Leah Sherwood"] {
 .team-member-placeholder {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: var(--border-radius);
     margin: 0 auto 1.5rem;
     background: var(--primary);
     display: flex;
