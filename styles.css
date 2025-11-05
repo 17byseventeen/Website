@@ -943,15 +943,14 @@ body {
     display: block;
 }
 
-.team-member-photo.leah-photo {
+/* Leah's photo - positioned to show her head and centered left */
+.team-member-photo.leah-photo,
+.team-member img.leah-photo,
+img.team-member-photo.leah-photo,
+img[src*="leah-photo.jpg"],
+img[alt="Leah Sherwood"] {
     object-position: 35% 20% !important;
-    object-fit: cover;
-}
-
-/* More specific selector for Leah's photo */
-.team-member img.leah-photo {
-    object-position: 35% 20% !important;
-    object-fit: cover;
+    object-fit: cover !important;
 }
 
 .team-member-placeholder {
