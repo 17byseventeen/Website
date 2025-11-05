@@ -87,7 +87,8 @@ function createTeamGrid() {
         if (member.photo) {
             // Add specific class for Leah's photo to center it properly
             const photoClass = member.name === "Leah Sherwood" ? "team-member-photo leah-photo" : "team-member-photo";
-            photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            const inlineStyle = member.name === "Leah Sherwood" ? 'style="object-position: 35% 20% !important;"' : '';
+            photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <div class="team-member-placeholder" style="display:none;">
                     <i class="fas fa-user"></i>
                 </div>`;
