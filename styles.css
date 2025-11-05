@@ -944,7 +944,12 @@ body {
 }
 
 .team-member-photo.leah-photo {
-    object-position: 20% center;
+    object-position: 15% 35% !important;
+}
+
+/* More specific selector for Leah's photo */
+.team-member img.leah-photo {
+    object-position: 15% 35% !important;
 }
 
 .team-member-placeholder {
