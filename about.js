@@ -47,6 +47,15 @@ const teamData = [
         social: {
             // Add social media links if available
         }
+    },
+    {
+        name: "Leah Sherwood",
+        role: "Editor and Social Media Manager for 17 By Seventeen",
+        bio: "Hi! My name is Leah Sherwood and I am a grade 10 student in Saint John, New Brunswick. Some of my passions include the environment, the arts, public speaking, and working with others, both to learn and to work toward a common goal. I am a grade representative on my student council, a member of the UNESCO club at my school, a member of my school's choir and drama clubs, have co-taught a biomaking program, and I am working on launching a project of my own relating to sustainability and environmental education and action. I love helping and making an impact on people in my community, and I often find myself volunteering and taking part in charitable events and action projects in my community. I am honoured to be a part of the 17 By Seventeen challenge, and am so excited to see where it takes us.",
+        photo: "images/leah-photo.jpg",
+        social: {
+            // Add social media links if available
+        }
     }
     // Add more team members here following this format:
     // {
@@ -76,7 +85,12 @@ function createTeamGrid() {
         
         let photoHTML = '';
         if (member.photo) {
-            photoHTML = `<img src="${member.photo}" alt="${member.name}" class="team-member-photo">`;
+            // Add specific class for Leah's photo to center it properly
+            const photoClass = member.name === "Leah Sherwood" ? "team-member-photo leah-photo" : "team-member-photo";
+            photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="team-member-placeholder" style="display:none;">
+                    <i class="fas fa-user"></i>
+                </div>`;
         } else {
             photoHTML = `
                 <div class="team-member-placeholder">

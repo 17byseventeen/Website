@@ -943,6 +943,10 @@ body {
     display: block;
 }
 
+.team-member-photo.leah-photo {
+    object-position: center 30%;
+}
+
 .team-member-placeholder {
     width: 150px;
     height: 150px;
