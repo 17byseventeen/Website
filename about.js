@@ -7,7 +7,7 @@ const teamData = [
         bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
         photo: "images/grace-photo.jpg",
         social: {
-            instagram: "https://www.instagram.com/17_by17",
+            instagram: "https://www.instagram.com/17_by17?igsh=MTBseWhzeXhnbGRjZg%3D%3D&utm_source=qr",
             tiktok: "https://www.tiktok.com/@17by17",
             youtube: "https://www.youtube.com/@17by17"
         }
