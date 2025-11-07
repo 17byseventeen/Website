@@ -37,7 +37,7 @@ const progressData = {
     14: { status: 'pending', content: 'Upcoming ocean conservation and marine protection initiatives.' },
     15: { status: 'completed', content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!' },
     16: { status: 'pending', content: 'Planned peace-building and justice initiatives in my community.' },
-    17: { status: 'completed', content: 'Completed partnership building with organizations like Brilliant Labs and RedHead Strays for collaborative sustainable development projects.' }
+    17: { status: 'completed', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
 };
 
 // Countdown timer

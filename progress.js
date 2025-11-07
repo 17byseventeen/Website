@@ -59,9 +59,9 @@ const journeyData = {
     17: { 
         status: 'completed', 
         title: 'Partnerships for the Goals',
-        content: 'Completed partnership building with organizations like Brilliant Labs and RedHead Strays for collaborative sustainable development projects.',
-        impact: 'Built strong partnerships that amplify the impact of sustainable development initiatives.',
-        date: 'June 2024'
+        content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.',
+        impact: 'Built strong partnerships with youth leaders across Canada, creating a collaborative network that amplifies the impact of sustainable development initiatives and demonstrates the power of working together.',
+        date: 'January 2025'
     }
 };
 
