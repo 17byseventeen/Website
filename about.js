@@ -56,6 +56,15 @@ const teamData = [
         social: {
             // Add social media links if available
         }
+    },
+    {
+        name: "Carter Mochinski",
+        role: "British Columbia Representative for 17 By Seventeen",
+        bio: "Hello! My name is Carter Mochinski, and I am from Lake Country, BC. I'm 17 years old in grade 12 at George Elliot Secondary School. I am so excited to join 17bySeventeen and make a difference in our communities. My passion for making a difference is motivated most by SDG 10, Reducing Inequalities and 13 Climate Action. I dream of a Canada and a world where all are valued and appreciated, and as a world that values protecting our environment and preserving our beautiful land. I call on the government to put talk into action and strive to achieve the UN SDGs by 2030. I am serving on multiple councils and working with non-profit organizations where I am advocating for the goals. I am currently serving a term on Lake Country Council as a Youth Councillor and on the SD23 District Student Council. I am going to COP30 in Bélem, Brazil, with CGE as the Global Head Reporter. I will also be on a couple of panels at COP30 representing BC Parks Foundation and CGE. I can't wait to take action with 17bySeventeen as well as educate our communities on the 17 Sustainable Development Goals. 17bySeventeen brings together youth with powerful connections, clearly identifying an important goal to achieve all the goals before it, SDG 17, Partnership for the Goals, on a national level. Because if we don't work together as a society, how are we going to achieve our global goals?",
+        photo: "images/carter-photo.jpg",
+        social: {
+            // Add social media links if available
+        }
     }
     // Add more team members here following this format:
     // {
@@ -85,9 +94,16 @@ function createTeamGrid() {
         
         let photoHTML = '';
         if (member.photo) {
-            // Add specific class for Leah's photo to center it properly
-            const photoClass = member.name === "Leah Sherwood" ? "team-member-photo leah-photo" : "team-member-photo";
-            const inlineStyle = member.name === "Leah Sherwood" ? 'style="object-position: 35% 20% !important;"' : '';
+            // Add specific class for photos that need special positioning
+            let photoClass = "team-member-photo";
+            let inlineStyle = '';
+            if (member.name === "Leah Sherwood") {
+                photoClass = "team-member-photo leah-photo";
+                inlineStyle = 'style="object-position: 35% 20% !important;"';
+            } else if (member.name === "Carter Mochinski") {
+                photoClass = "team-member-photo carter-photo";
+                inlineStyle = 'style="object-position: center 25% !important;"';
+            }
             photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                 <div class="team-member-placeholder" style="display:none;">
                     <i class="fas fa-user"></i>

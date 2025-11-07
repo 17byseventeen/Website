@@ -953,6 +953,16 @@ img[alt="Leah Sherwood"] {
     object-fit: cover !important;
 }
 
+/* Carter's photo - centered to show his face */
+.team-member-photo.carter-photo,
+.team-member img.carter-photo,
+img.team-member-photo.carter-photo,
+img[src*="carter-photo.jpg"],
+img[alt="Carter Mochinski"] {
+    object-position: center 25% !important;
+    object-fit: cover !important;
+}
+
 .team-member-placeholder {
     width: 150px;
     height: 150px;
