@@ -65,6 +65,15 @@ const teamData = [
         social: {
             // Add social media links if available
         }
+    },
+    {
+        name: "Madhu Deiva Sandhiya",
+        role: "Nova Scotia Representative for 17 By Seventeen",
+        bio: "Hello! I'm Madhu D.S and I am a Grade 10 at Woodlawn High School from Dartmouth, Nova Scotia. I am a person who is always seeking self/surrounding evolving opportunities. I have a deep passion for making an impact in the community so that people can lead better lives, feel empowered to create change, have equal opportunities to thrive and live in a more sustainable environment. I work with United for Literacy as a tutor to teach kids whose first languages aren't English in a safe and understanding environment. I am a teen ambassador for the Canadian Association for Girls in Science. In school, I am active in clubs and councils that support and give back to the school and community. To wrap it all up, I am a strong believer of leading with integrity, equality, empowering others and taking action to create lasting change. I am looking forward to play a part in 17 by Seventeen!",
+        photo: "images/madhu-photo.png.JPG",
+        social: {
+            // Add social media links if available
+        }
     }
     // Add more team members here following this format:
     // {
