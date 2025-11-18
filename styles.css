@@ -1026,6 +1026,178 @@ img[alt="Carter Mochinski"] {
     transform: translateY(-2px);
 }
 
+/* Programs Page Styles */
+.programs-section {
+    padding: 4rem 0;
+    background: var(--background);
+}
+
+.programs-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    color: var(--text-dark);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.program-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.program-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.program-card-header h3 {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin: 0;
+    flex: 1;
+}
+
+.program-status {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: var(--font-weight-semibold);
+    white-space: nowrap;
+}
+
+.program-status.open {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.program-status.closed {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.program-status.coming-soon {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.program-card-body {
+    flex: 1;
+    margin-bottom: 1.5rem;
+}
+
+.program-hosts {
+    font-size: 0.95rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.program-hosts i {
+    color: var(--primary);
+}
+
+.program-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+}
+
+.program-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.program-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.program-detail i {
+    color: var(--primary);
+    width: 20px;
+}
+
+.program-card-footer {
+    margin-top: auto;
+}
+
+.program-register-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    font-weight: var(--font-weight-semibold);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.program-register-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.no-programs {
+    text-align: center;
+    padding: 4rem 2rem;
+    grid-column: 1 / -1;
+}
+
+.no-programs i {
+    font-size: 4rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.no-programs h3 {
+    font-size: 1.8rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.no-programs p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
 /* SDGs Page Styles */
 .sdgs-hero {
     padding: 8rem 0 4rem;
@@ -1655,6 +1827,21 @@ img[alt="Carter Mochinski"] {
         padding: 0 1rem;
     }
     
+    .programs-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .program-card {
+        padding: 1.5rem;
+    }
+    
+    .program-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
     .team-member {
         padding: 1.5rem;
         margin-bottom: 0.5rem;
@@ -1697,6 +1884,18 @@ img[alt="Carter Mochinski"] {
     
     .hero-subtitle {
         font-size: 1.5rem;
+    }
+    
+    .program-card {
+        padding: 1.25rem;
+    }
+    
+    .program-card-header h3 {
+        font-size: 1.3rem;
+    }
+    
+    .program-description {
+        font-size: 0.95rem;
     }
     
     .countdown {
