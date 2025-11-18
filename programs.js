@@ -8,7 +8,7 @@ const programsData = [
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9I0La1CNsIcFvk836fpdN4EvKeO8g2MQq2NmcloLumSJihw/viewform?usp=dialog",
         status: "open",
         date: "December 12th",
-        location: "81 Broad Street, Uptown Saint John (Brilliant Labs)"
+        location: "Carmarthen/Broad Street, Uptown Saint John (Brilliant Labs)"
     }
     // Example program structure:
     // {
