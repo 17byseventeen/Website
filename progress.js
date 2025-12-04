@@ -5,14 +5,14 @@ const journeyData = {
         title: 'No Poverty',
         content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.',
         impact: 'Collected and distributed clothing to help those in need, directly addressing poverty through community support and resource distribution.',
-        date: 'November 2024'
+        date: 'November 2025'
     },
     2: { 
         status: 'completed', 
         title: 'Zero Hunger',
         content: 'Completed Zero Hunger by collaborating with Street Team Saint John to make a meal for the homeless, addressing food insecurity and hunger in our community.',
         impact: 'Provided nutritious meals to homeless individuals in Saint John, directly addressing hunger and food insecurity while building community connections and support.',
-        date: 'December 2024'
+        date: 'December 2025'
     },
     3: { 
         status: 'in-progress', 
@@ -40,7 +40,7 @@ const journeyData = {
         title: 'Responsible Consumption and Production',
         content: 'Completed the "Cardboard for Kitty" fundraiser with Brilliant Labs and RedHead Strays, promoting responsible consumption and sustainable practices.',
         impact: 'Raised awareness about sustainable alternatives and supported animal welfare through creative fundraising.',
-        date: 'March 2024'
+        date: 'November 2024'
     },
     13: { 
         status: 'completed', 
@@ -54,7 +54,7 @@ const journeyData = {
         title: 'Life on Land',
         content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!',
         impact: 'Helped protect local ecosystems and marine life by removing harmful waste from the beach, contributing to cleaner oceans and healthier land environments.',
-        date: 'September 2024'
+        date: 'September 2025'
     },
     17: { 
         status: 'completed', 
