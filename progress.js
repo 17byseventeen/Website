@@ -8,11 +8,11 @@ const journeyData = {
         date: 'November 2024'
     },
     2: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Zero Hunger',
-        content: 'Working on initiatives to address hunger and food security in my local area.',
-        impact: 'Developing programs to ensure everyone has access to nutritious food.',
-        date: 'October 2024'
+        content: 'Completed Zero Hunger by collaborating with Street Team Saint John to make a meal for the homeless, addressing food insecurity and hunger in our community.',
+        impact: 'Provided nutritious meals to homeless individuals in Saint John, directly addressing hunger and food insecurity while building community connections and support.',
+        date: 'December 2024'
     },
     3: { 
         status: 'in-progress', 
