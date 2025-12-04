@@ -4,11 +4,12 @@ const programsData = [
     {
         title: "The Big Sister Project",
         hosts: "Grace Totten and Leah Sherwood",
-        description: "The Big Sister Project is a 2-hour program that aims to help middle school girls build self-confidence, learn healthy eating habits, and discourage the use of harmful substances. Grace and Leah want to make a difference in these young females' lives by sharing how they managed middle school and the things they were met with along the way.",
+        description: "The Big Sister Project is a 2-hour program that aims to help middle school girls and/or female identifying students build self-confidence, learn healthy eating habits, and discourage the use of harmful substances. Grace and Leah want to make a difference in these young females' lives by sharing how they managed middle school and the things they were met with along the way.",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9I0La1CNsIcFvk836fpdN4EvKeO8g2MQq2NmcloLumSJihw/viewform?usp=dialog",
         status: "open",
         date: "December 12th",
-        location: "Carmarthen/Broad Street, Uptown Saint John (Brilliant Labs)"
+        time: "4:30 pm - 6:30 pm",
+        location: "54 Broad Street, Uptown Saint John (Brilliant Labs)"
     }
     // Example program structure:
     // {
@@ -17,6 +18,7 @@ const programsData = [
     //     registrationLink: "https://forms.google.com/...",
     //     status: "open", // "open", "closed", or "coming-soon"
     //     date: "March 2025",
+    //     time: "2:00 pm - 4:00 pm", // Optional
     //     location: "Online" or "In-person location"
     // }
 ];
@@ -73,6 +75,7 @@ function createProgramsGrid() {
                 <p class="program-description">${program.description}</p>
                 <div class="program-details">
                     ${program.date ? `<div class="program-detail"><i class="fas fa-calendar"></i> <span>${program.date}</span></div>` : ''}
+                    ${program.time ? `<div class="program-detail"><i class="fas fa-clock"></i> <span>${program.time}</span></div>` : ''}
                     ${program.location ? `<div class="program-detail"><i class="fas fa-map-marker-alt"></i> <span>${program.location}</span></div>` : ''}
                 </div>
             </div>

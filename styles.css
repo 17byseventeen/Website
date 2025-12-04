@@ -2523,3 +2523,464 @@ img[alt="Carter Mochinski"] {
         line-height: 1.4;
     }
 }
+
+/* Challenge Page Styles */
+.challenge-overview {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.section-intro {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    font-weight: var(--font-weight-normal);
+}
+
+.challenge-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.challenge-text {
+    background: white;
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.challenge-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+}
+
+.challenge-text p:last-child {
+    margin-bottom: 0;
+}
+
+.challenge-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.challenge-stat {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.challenge-stat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stat-icon-large {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.stat-icon-large i {
+    font-size: 2rem;
+    color: white;
+}
+
+.challenge-stat h3 {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.challenge-stat p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.how-to-participate {
+    padding: 5rem 0;
+    background: white;
+}
+
+.how-to-participate h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 3rem;
+    color: var(--text-dark);
+}
+
+.participation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.participation-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.participation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary);
+}
+
+.participation-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: var(--transition);
+}
+
+.participation-card:hover .participation-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.participation-icon i {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.participation-card h3 {
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.participation-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.participation-card p strong {
+    color: var(--primary);
+    font-weight: var(--font-weight-bold);
+}
+
+.social-challenge-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    color: white;
+}
+
+.social-challenge-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.social-challenge-section .section-description {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+}
+
+.social-challenge-section .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.social-challenge-section .social-link {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 2rem 3rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    min-width: 200px;
+}
+
+.social-challenge-section .social-link:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.social-challenge-section .social-link i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.social-challenge-section .social-link span {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 0.5rem;
+}
+
+.social-challenge-section .social-link p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.challenge-guidelines {
+    padding: 5rem 0;
+    background: var(--background);
+}
+
+.guidelines-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.guideline-item {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    transition: var(--transition);
+}
+
+.guideline-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.guideline-icon {
+    flex-shrink: 0;
+}
+
+.guideline-icon i {
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.guideline-text h3 {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.guideline-text p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Participants Section */
+.challenge-participants {
+    padding: 5rem 0;
+    background: white;
+}
+
+.participants-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.participant-card {
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.participant-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border-color: var(--primary);
+}
+
+.participant-photo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.participant-placeholder {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.participant-placeholder i {
+    font-size: 4rem;
+    color: white;
+    opacity: 0.7;
+}
+
+.participant-info {
+    padding: 2rem;
+}
+
+.participant-name {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.participant-location {
+    color: var(--primary);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.participant-location i {
+    margin-right: 0.5rem;
+}
+
+.participant-bio {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.participant-social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.participant-social a {
+    width: 40px;
+    height: 40px;
+    background: var(--background);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.participant-social a:hover {
+    background: var(--primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.no-participants {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--background);
+    border-radius: var(--border-radius);
+    border: 2px dashed var(--primary);
+}
+
+.no-participants i {
+    font-size: 4rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    opacity: 0.5;
+}
+
+.no-participants p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+/* Responsive Design for Challenge Page */
+@media (max-width: 768px) {
+    .challenge-overview,
+    .how-to-participate,
+    .social-challenge-section,
+    .challenge-guidelines,
+    .challenge-participants {
+        padding: 3rem 0;
+    }
+    
+    .section-header h2,
+    .how-to-participate h2,
+    .social-challenge-section h2 {
+        font-size: 2rem;
+    }
+    
+    .challenge-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .participation-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-challenge-section .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-challenge-section .social-link {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .guidelines-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .participants-grid {
+        grid-template-columns: 1fr;
+    }
+}
