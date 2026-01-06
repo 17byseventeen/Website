@@ -7,9 +7,7 @@ const participantsData = [
         bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
         photo: "images/grace-photo.jpg",
         social: {
-            instagram: "https://www.instagram.com/17byseventeen_",
-            tiktok: "https://www.tiktok.com/@17by17",
-            youtube: "https://www.youtube.com/@17by17"
+            instagram: "https://www.instagram.com/17byseventeen_"
         }
     }
     // Add more participants here following this format:
@@ -20,8 +18,6 @@ const participantsData = [
     //     photo: "images/participant-photo.jpg", // Optional
     //     social: {
     //         instagram: "https://instagram.com/username", // Optional
-    //         tiktok: "https://tiktok.com/@username", // Optional
-    //         youtube: "https://youtube.com/@username" // Optional
     //     }
     // }
 ];
@@ -62,16 +58,10 @@ function createParticipantsGrid() {
         }
         
         let socialHTML = '';
-        if (participant.social && (participant.social.instagram || participant.social.tiktok || participant.social.youtube)) {
+        if (participant.social && participant.social.instagram) {
             socialHTML = '<div class="participant-social">';
             if (participant.social.instagram) {
                 socialHTML += `<a href="${participant.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${participant.name} Instagram"><i class="fab fa-instagram"></i></a>`;
-            }
-            if (participant.social.tiktok) {
-                socialHTML += `<a href="${participant.social.tiktok}" target="_blank" rel="noopener noreferrer" aria-label="${participant.name} TikTok"><i class="fab fa-tiktok"></i></a>`;
-            }
-            if (participant.social.youtube) {
-                socialHTML += `<a href="${participant.social.youtube}" target="_blank" rel="noopener noreferrer" aria-label="${participant.name} YouTube"><i class="fab fa-youtube"></i></a>`;
             }
             socialHTML += '</div>';
         }

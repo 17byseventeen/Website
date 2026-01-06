@@ -7,9 +7,7 @@ const teamData = [
         bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
         photo: "images/grace-photo.jpg",
         social: {
-            instagram: "https://www.instagram.com/17_by17?igsh=MTBseWhzeXhnbGRjZg%3D%3D&utm_source=qr",
-            tiktok: "https://www.tiktok.com/@17by17",
-            youtube: "https://www.youtube.com/@17by17"
+            instagram: "https://www.instagram.com/17_by17?igsh=MTBseWhzeXhnbGRjZg%3D%3D&utm_source=qr"
         }
     },
     {
@@ -83,8 +81,6 @@ const teamData = [
     //     photo: "images/team-member-photo.jpg", // Optional - leave empty or null for placeholder
     //     social: {
     //         instagram: "https://instagram.com/username", // Optional
-    //         tiktok: "https://tiktok.com/@username", // Optional
-    //         youtube: "https://youtube.com/@username", // Optional
     //         email: "email@example.com" // Optional
     //     }
     // }
@@ -126,16 +122,10 @@ function createTeamGrid() {
         }
         
         let socialHTML = '';
-        if (member.social && (member.social.instagram || member.social.tiktok || member.social.youtube || member.social.email)) {
+        if (member.social && (member.social.instagram || member.social.email)) {
             socialHTML = '<div class="team-member-social">';
             if (member.social.instagram) {
                 socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
-            }
-            if (member.social.tiktok) {
-                socialHTML += `<a href="${member.social.tiktok}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} TikTok"><i class="fab fa-tiktok"></i></a>`;
-            }
-            if (member.social.youtube) {
-                socialHTML += `<a href="${member.social.youtube}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} YouTube"><i class="fab fa-youtube"></i></a>`;
             }
             if (member.social.email) {
                 socialHTML += `<a href="mailto:${member.social.email}" aria-label="${member.name} Email"><i class="fas fa-envelope"></i></a>`;
