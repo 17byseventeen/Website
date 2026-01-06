@@ -15,11 +15,11 @@ const journeyData = {
         date: 'December 2025'
     },
     3: { 
-        status: 'in-progress', 
+        status: 'pending', 
         title: 'Good Health and Well-being',
-        content: 'Promoting good health and well-being through awareness campaigns and wellness initiatives in my community.',
-        impact: 'Raising awareness about mental wellness and physical health in schools and community centers.',
-        date: 'November 2024'
+        content: 'Currently thinking of ideas to promote good health and well-being in my community.',
+        impact: 'Planning initiatives to improve health and wellness outcomes.',
+        date: 'TBD'
     },
     4: { 
         status: 'completed', 
@@ -28,12 +28,40 @@ const journeyData = {
         impact: 'Helped students improve their academic performance and access to learning resources.',
         date: 'September 2024'
     },
+    5: { 
+        status: 'in-progress', 
+        title: 'Gender Equality',
+        content: 'Planning in-school events to highlight women in STEM whose inventions or discoveries were historically uncredited or attributed to men, as well as to recognize influential women in STEM, in observance of February 11 the International Day of Women and Girls in Science',
+        impact: 'Raising awareness about the contributions of women in STEM and addressing historical gender inequality in science and technology fields.',
+        date: 'In Progress'
+    },
+    7: { 
+        status: 'in-progress', 
+        title: 'Affordable and Clean Energy',
+        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
+        impact: 'Educating and inspiring students through industry expert engagement, promoting knowledge and awareness of clean energy solutions.',
+        date: 'In Progress'
+    },
+    8: { 
+        status: 'in-progress', 
+        title: 'Decent Work and Economic Growth',
+        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
+        impact: 'Educating and inspiring students through industry expert engagement, promoting understanding of economic growth and decent work opportunities.',
+        date: 'In Progress'
+    },
+    9: { 
+        status: 'in-progress', 
+        title: 'Industry, Innovation and Infrastructure',
+        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
+        impact: 'Educating and inspiring students through industry expert engagement, promoting innovation and infrastructure development knowledge.',
+        date: 'In Progress'
+    },
     11: { 
-        status: 'pending', 
+        status: 'in-progress', 
         title: 'Sustainable Cities and Communities',
-        content: 'Upcoming sustainable community development projects and urban planning initiatives.',
-        impact: 'Planning initiatives to foster sustainable urban development and community resilience.',
-        date: 'February 2025'
+        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
+        impact: 'Educating and inspiring students through industry expert engagement, promoting sustainable community development and urban planning knowledge.',
+        date: 'In Progress'
     },
     12: { 
         status: 'completed', 
