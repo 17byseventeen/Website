@@ -100,59 +100,72 @@ const teamData = [
 // Create team grid
 function createTeamGrid() {
     const teamGrid = document.getElementById('team-grid');
-    if (!teamGrid) return;
+    if (!teamGrid) {
+        console.error('Team grid element not found!');
+        return;
+    }
+    
+    if (!teamData || !Array.isArray(teamData)) {
+        console.error('teamData is not a valid array!');
+        teamGrid.innerHTML = '<p>Error: Team data not available.</p>';
+        return;
+    }
     
     teamGrid.innerHTML = '';
     
-    teamData.forEach(member => {
-        const teamCard = document.createElement('div');
-        teamCard.className = 'team-member';
+    teamData.forEach((member, index) => {
+        try {
+            const teamCard = document.createElement('div');
+            teamCard.className = 'team-member';
         
-        let photoHTML = '';
-        if (member.photo) {
-            // Add specific class for photos that need special positioning
-            let photoClass = "team-member-photo";
-            let inlineStyle = '';
-            if (member.name === "Leah Sherwood") {
-                photoClass = "team-member-photo leah-photo";
-                inlineStyle = 'style="object-position: 35% 20% !important;"';
-            } else if (member.name === "Carter Mochinski") {
-                photoClass = "team-member-photo carter-photo";
-                inlineStyle = 'style="object-position: center 25% !important;"';
+            let photoHTML = '';
+            if (member.photo) {
+                // Add specific class for photos that need special positioning
+                let photoClass = "team-member-photo";
+                let inlineStyle = '';
+                if (member.name === "Leah Sherwood") {
+                    photoClass = "team-member-photo leah-photo";
+                    inlineStyle = 'style="object-position: 35% 20% !important;"';
+                } else if (member.name === "Carter Mochinski") {
+                    photoClass = "team-member-photo carter-photo";
+                    inlineStyle = 'style="object-position: center 25% !important;"';
+                }
+                photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="team-member-placeholder" style="display:none;">
+                        <i class="fas fa-user"></i>
+                    </div>`;
+            } else {
+                photoHTML = `
+                    <div class="team-member-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                `;
             }
-            photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                <div class="team-member-placeholder" style="display:none;">
-                    <i class="fas fa-user"></i>
-                </div>`;
-        } else {
-            photoHTML = `
-                <div class="team-member-placeholder">
-                    <i class="fas fa-user"></i>
-                </div>
+            
+            let socialHTML = '';
+            if (member.social && (member.social.instagram || member.social.email)) {
+                socialHTML = '<div class="team-member-social">';
+                if (member.social.instagram) {
+                    socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
+                }
+                if (member.social.email) {
+                    socialHTML += `<a href="mailto:${member.social.email}" aria-label="${member.name} Email"><i class="fas fa-envelope"></i></a>`;
+                }
+                socialHTML += '</div>';
+            }
+            
+            teamCard.innerHTML = `
+                ${photoHTML}
+                <h3 class="team-member-name">${member.name}</h3>
+                <p class="team-member-role">${member.role}</p>
+                <p class="team-member-bio">${member.bio}</p>
+                ${socialHTML}
             `;
+            
+            teamGrid.appendChild(teamCard);
+        } catch (error) {
+            console.error(`Error creating card for team member ${index + 1} (${member.name || 'unknown'}):`, error);
         }
-        
-        let socialHTML = '';
-        if (member.social && (member.social.instagram || member.social.email)) {
-            socialHTML = '<div class="team-member-social">';
-            if (member.social.instagram) {
-                socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
-            }
-            if (member.social.email) {
-                socialHTML += `<a href="mailto:${member.social.email}" aria-label="${member.name} Email"><i class="fas fa-envelope"></i></a>`;
-            }
-            socialHTML += '</div>';
-        }
-        
-        teamCard.innerHTML = `
-            ${photoHTML}
-            <h3 class="team-member-name">${member.name}</h3>
-            <p class="team-member-role">${member.role}</p>
-            <p class="team-member-bio">${member.bio}</p>
-            ${socialHTML}
-        `;
-        
-        teamGrid.appendChild(teamCard);
     });
 }
 
@@ -186,9 +199,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Create team grid
-    console.log('Team data loaded:', teamData.length, 'members');
-    createTeamGrid();
-    console.log('Team grid created');
+    try {
+        console.log('Team data loaded:', teamData.length, 'members');
+        createTeamGrid();
+        console.log('Team grid created');
+    } catch (error) {
+        console.error('Error creating team grid:', error);
+        const teamGrid = document.getElementById('team-grid');
+        if (teamGrid) {
+            teamGrid.innerHTML = '<p style="color: red;">Error loading team members. Please check the console.</p>';
+        }
+    }
 });
 
 
