@@ -115,6 +115,7 @@ function createTeamGrid() {
     
     teamData.forEach((member, index) => {
         try {
+            console.log(`Processing team member ${index + 1}: ${member.name}`);
             const teamCard = document.createElement('div');
             teamCard.className = 'team-member';
         
