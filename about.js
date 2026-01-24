@@ -72,6 +72,17 @@ const teamData = [
         social: {
             // Add social media links if available
         }
+    },
+    {
+        name: "María José Amor",
+        role: "Argentina Representative for 17 By Seventeen",
+        bio: "¡Hola! My name is María José Amor, I'm 18 years old and I come from Buenos Aires, Argentina. As the newest member, I'm committed to creating social and environmental impact in my country, but also proud to represent Argentina as part of this project. I've always tried to be involved in community and sustainability-focused projects, including planning a native plant nursery, creating and participating in local volunteering opportunities, and, more recently, contributing to youth advocacy at the World Conservation Congress. Growing up in an area affected by events like wildfires, water pollution, and species loss has helped to fuel my interest in sustainable development and reinforced my belief that the SDGs must be integrated into every aspect of my life: as an individual, within my institutions, and as an active citizen. Joining this project is an exciting opportunity to collaborate with inspiring people, contribute my perspective, and help advance meaningful and hopefully long-term impact while representing my country and learning from others.",
+        photo: "images/maria-photo.png",
+        social: {
+            // Add social media links if available
+            // instagram: "https://instagram.com/username",
+            // email: "email@example.com"
+        }
     }
     // Add more team members here following this format:
     // {
