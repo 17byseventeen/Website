@@ -5,7 +5,7 @@ const teamData = [
         name: "Grace Totten",
         role: "Founder",
         bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
-        photo: "images/grace-photo.jpg",
+        photo: "images/grace-photo.png",
         social: {
             instagram: "https://www.instagram.com/17byseventeen_/"
         }
