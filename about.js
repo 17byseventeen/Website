@@ -7,7 +7,7 @@ const teamData = [
         bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
         photo: "images/grace-photo.jpg",
         social: {
-            instagram: "https://www.instagram.com/17_by17?igsh=MTBseWhzeXhnbGRjZg%3D%3D&utm_source=qr"
+            instagram: "https://www.instagram.com/17byseventeen_/"
         }
     },
     {
@@ -24,15 +24,6 @@ const teamData = [
         role: "Ontario Representative for 17 By Seventeen",
         bio: "Hi! My name is Anjani Shah, and I am a 16 year old student at Assumption College School who's passionate about making a difference in my school, community, and the world. I am a strong believer that real change starts with small actions, and I try my best to live that every day through leadership, volunteering, and service. Some things I am a part of at school are Model UN, Mock Trial, and STEM, where I get to challenge myself and grow as a leader and problem-solver. I am also part of the 180 Team, which focuses on helping our community by taking part in projects that support people through local services such as therapy centres and soup kitchens. I am also a Prefect; where I help organize school events and tutor students who need academic support. Now, a sneak peak of my life outside of school. My culture and religion are a huge part of me in which through my temple's charity (BAPS Charities), I help raise funds for cancer research and breast cancer awareness as well as supporting local food bank initiatives. I also teach young girls at my temple every Saturday about my culture and faith, and through Army Cadets, I have raised money to support Canadian Armed Forces members, Veterans, and their families. Being part of the 17bySeventeen movement motivates me to take action toward the United Nations Sustainable Development Goals (UNSDGs) and remind others that you're never too young to make a difference. Together, we can help build a kinder, more sustainable world, one step at a time.",
         photo: "images/anjani-photo.jpg",
-        social: {
-            // Add social media links if available
-        }
-    },
-    {
-        name: "Mateo Porter Partida",
-        role: "British Columbia Representative for 17 By Seventeen",
-        bio: "My name is Mateo Porter Partida, and I am an 18-year-old Mexican student living in Canada with a deep passion for marine ecosystems and sustainability. As I navigate my final year of high school, I aspire to study marine biology and explore ways to build a greener, more environmentally friendly community in my city – one of my recent projects was creating a compost system in my school. Besides this project, I am very involved in my school and community. From Grad President to Global Lead Speaker for the IUCN 2025 World Conservation Congress, my passion for leaving a positive impact on the planet has taken me places I only ever dreamed of. I want to give future generations the chance to experience the beautiful and mesmerizing world we live in today, and I dream of a future where humans and nature live in harmony.",
-        photo: "images/mateo-photo.jpg",
         social: {
             // Add social media links if available
         }
@@ -84,7 +75,20 @@ const teamData = [
             // email: "email@example.com"
         }
     }
-    // Add more team members here following this format:
+];
+
+// Former team member data
+const formerTeamData = [
+    {
+        name: "Mateo Porter Partida",
+        role: "Former British Columbia Representative for 17 By Seventeen",
+        bio: "My name is Mateo Porter Partida, and I am an 18-year-old Mexican student living in Canada with a deep passion for marine ecosystems and sustainability. As I navigate my final year of high school, I aspire to study marine biology and explore ways to build a greener, more environmentally friendly community in my city – one of my recent projects was creating a compost system in my school. Besides this project, I am very involved in my school and community. From Grad President to Global Lead Speaker for the IUCN 2025 World Conservation Congress, my passion for leaving a positive impact on the planet has taken me places I only ever dreamed of. I want to give future generations the chance to experience the beautiful and mesmerizing world we live in today, and I dream of a future where humans and nature live in harmony.",
+        photo: "images/mateo-photo.jpg",
+        social: {
+            // Add social media links if available
+        }
+    }
+    // Add more former team members here following this format:
     // {
     //     name: "Team Member Name",
     //     role: "Team Member Role",
@@ -96,6 +100,58 @@ const teamData = [
     //     }
     // }
 ];
+
+// Create team member card
+function createTeamMemberCard(member) {
+    const teamCard = document.createElement('div');
+    teamCard.className = 'team-member';
+    
+    let photoHTML = '';
+    if (member.photo) {
+        // Add specific class for photos that need special positioning
+        let photoClass = "team-member-photo";
+        let inlineStyle = '';
+        if (member.name === "Leah Sherwood") {
+            photoClass = "team-member-photo leah-photo";
+            inlineStyle = 'style="object-position: 35% 20% !important;"';
+        } else if (member.name === "Carter Mochinski") {
+            photoClass = "team-member-photo carter-photo";
+            inlineStyle = 'style="object-position: center 25% !important;"';
+        }
+        photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="team-member-placeholder" style="display:none;">
+                <i class="fas fa-user"></i>
+            </div>`;
+    } else {
+        photoHTML = `
+            <div class="team-member-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+        `;
+    }
+    
+    let socialHTML = '';
+    if (member.social && (member.social.instagram || member.social.email)) {
+        socialHTML = '<div class="team-member-social">';
+        if (member.social.instagram) {
+            socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
+        }
+        if (member.social.email) {
+            socialHTML += `<a href="mailto:${member.social.email}" aria-label="${member.name} Email"><i class="fas fa-envelope"></i></a>`;
+        }
+        socialHTML += '</div>';
+    }
+    
+    teamCard.innerHTML = `
+        ${photoHTML}
+        <h3 class="team-member-name">${member.name}</h3>
+        <p class="team-member-role">${member.role}</p>
+        <p class="team-member-bio">${member.bio}</p>
+        ${socialHTML}
+    `;
+    
+    return teamCard;
+}
 
 // Create team grid
 function createTeamGrid() {
@@ -116,53 +172,7 @@ function createTeamGrid() {
     teamData.forEach((member, index) => {
         try {
             console.log(`Processing team member ${index + 1}: ${member.name}`);
-            const teamCard = document.createElement('div');
-            teamCard.className = 'team-member';
-        
-            let photoHTML = '';
-            if (member.photo) {
-                // Add specific class for photos that need special positioning
-                let photoClass = "team-member-photo";
-                let inlineStyle = '';
-                if (member.name === "Leah Sherwood") {
-                    photoClass = "team-member-photo leah-photo";
-                    inlineStyle = 'style="object-position: 35% 20% !important;"';
-                } else if (member.name === "Carter Mochinski") {
-                    photoClass = "team-member-photo carter-photo";
-                    inlineStyle = 'style="object-position: center 25% !important;"';
-                }
-                photoHTML = `<img src="${member.photo}" alt="${member.name}" class="${photoClass}" ${inlineStyle} onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-member-placeholder" style="display:none;">
-                        <i class="fas fa-user"></i>
-                    </div>`;
-            } else {
-                photoHTML = `
-                    <div class="team-member-placeholder">
-                        <i class="fas fa-user"></i>
-                    </div>
-                `;
-            }
-            
-            let socialHTML = '';
-            if (member.social && (member.social.instagram || member.social.email)) {
-                socialHTML = '<div class="team-member-social">';
-                if (member.social.instagram) {
-                    socialHTML += `<a href="${member.social.instagram}" target="_blank" rel="noopener noreferrer" aria-label="${member.name} Instagram"><i class="fab fa-instagram"></i></a>`;
-                }
-                if (member.social.email) {
-                    socialHTML += `<a href="mailto:${member.social.email}" aria-label="${member.name} Email"><i class="fas fa-envelope"></i></a>`;
-                }
-                socialHTML += '</div>';
-            }
-            
-            teamCard.innerHTML = `
-                ${photoHTML}
-                <h3 class="team-member-name">${member.name}</h3>
-                <p class="team-member-role">${member.role}</p>
-                <p class="team-member-bio">${member.bio}</p>
-                ${socialHTML}
-            `;
-            
+            const teamCard = createTeamMemberCard(member);
             teamGrid.appendChild(teamCard);
         } catch (error) {
             console.error(`Error creating card for team member ${index + 1} (${member.name || 'unknown'}):`, error);
@@ -211,6 +221,45 @@ document.addEventListener('DOMContentLoaded', function() {
             teamGrid.innerHTML = '<p style="color: red;">Error loading team members. Please check the console.</p>';
         }
     }
+    
+    // Create former team grid
+    try {
+        console.log('Former team data loaded:', formerTeamData.length, 'members');
+        createFormerTeamGrid();
+        console.log('Former team grid created');
+    } catch (error) {
+        console.error('Error creating former team grid:', error);
+        const formerTeamGrid = document.getElementById('former-team-grid');
+        if (formerTeamGrid) {
+            formerTeamGrid.innerHTML = '<p style="color: red;">Error loading former team members. Please check the console.</p>';
+        }
+    }
 });
+
+// Create former team grid
+function createFormerTeamGrid() {
+    const formerTeamGrid = document.getElementById('former-team-grid');
+    if (!formerTeamGrid) {
+        console.log('Former team grid element not found - skipping');
+        return;
+    }
+    
+    if (!formerTeamData || !Array.isArray(formerTeamData) || formerTeamData.length === 0) {
+        formerTeamGrid.innerHTML = '';
+        return;
+    }
+    
+    formerTeamGrid.innerHTML = '';
+    
+    formerTeamData.forEach((member, index) => {
+        try {
+            console.log(`Processing former team member ${index + 1}: ${member.name}`);
+            const teamCard = createTeamMemberCard(member);
+            formerTeamGrid.appendChild(teamCard);
+        } catch (error) {
+            console.error(`Error creating card for former team member ${index + 1} (${member.name || 'unknown'}):`, error);
+        }
+    });
+}
 
 

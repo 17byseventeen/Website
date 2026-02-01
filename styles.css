@@ -746,7 +746,7 @@ body {
     opacity: 0.9;
 }
 
-.who-i-am, .what-is-17by17, .my-mission, .meet-the-team {
+.who-i-am, .what-is-17by17, .my-mission, .meet-the-team, .former-team-section {
     padding: 4rem 0;
 }
 
@@ -762,7 +762,7 @@ body {
     background: white;
 }
 
-.meet-the-team {
+.meet-the-team, .former-team-section {
     background: var(--background);
 }
 
@@ -1203,6 +1203,164 @@ img[alt="Carter Mochinski"] {
 }
 
 .no-programs p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+/* Events Page Styles */
+.events-section {
+    padding: 4rem 0;
+    background: var(--background);
+}
+
+.events-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    color: var(--text-dark);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 1rem;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.event-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.event-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.event-card-header h3 {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin: 0;
+    flex: 1;
+}
+
+.event-status {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: var(--font-weight-semibold);
+    white-space: nowrap;
+}
+
+.event-status.active {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.event-status.upcoming {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.event-status.past {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.event-card-body {
+    flex: 1;
+    margin-bottom: 1.5rem;
+}
+
+.event-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.event-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.event-detail i {
+    color: var(--primary);
+    width: 20px;
+}
+
+.event-card-footer {
+    margin-top: auto;
+}
+
+.event-website-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    font-weight: var(--font-weight-semibold);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.no-events {
+    text-align: center;
+    padding: 4rem 2rem;
+    grid-column: 1 / -1;
+}
+
+.no-events i {
+    font-size: 4rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.no-events h3 {
+    font-size: 1.8rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.no-events p {
     font-size: 1.1rem;
     color: var(--text-muted);
 }
@@ -1855,16 +2013,19 @@ img[alt="Carter Mochinski"] {
         padding: 0 1rem;
     }
     
-    .programs-grid {
+    .programs-grid,
+    .events-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     
-    .program-card {
+    .program-card,
+    .event-card {
         padding: 1.5rem;
     }
     
-    .program-card-header {
+    .program-card-header,
+    .event-card-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.75rem;
@@ -1905,7 +2066,8 @@ img[alt="Carter Mochinski"] {
         overflow-wrap: break-word;
     }
     
-    .meet-the-team {
+    .meet-the-team,
+    .former-team-section {
         padding: 3rem 0;
     }
 }
@@ -2038,11 +2200,13 @@ img[alt="Carter Mochinski"] {
         overflow-wrap: break-word;
     }
     
-    .meet-the-team {
+    .meet-the-team,
+    .former-team-section {
         padding: 2.5rem 0;
     }
     
-    .meet-the-team h2 {
+    .meet-the-team h2,
+    .former-team-section h2 {
         font-size: 2rem;
         margin-bottom: 1.5rem;
     }
