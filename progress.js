@@ -31,37 +31,37 @@ const journeyData = {
     5: { 
         status: 'in-progress', 
         title: 'Gender Equality',
-        content: 'Planning in-school events to highlight women in STEM whose inventions or discoveries were historically uncredited or attributed to men, as well as to recognize influential women in STEM, in observance of February 11 the International Day of Women and Girls in Science',
-        impact: 'Raising awareness about the contributions of women in STEM and addressing historical gender inequality in science and technology fields.',
-        date: 'In Progress'
+        content: 'Putting together an International Women\'s Day webinar scheduled for March 11th to celebrate and highlight the achievements of women. The webinar will feature discussions about women\'s contributions across various fields, recognize influential women, and inspire young women and girls. This initiative aligns with International Women\'s Day (March 8th), creating a platform for education, empowerment, and recognition of women\'s contributions to society.',
+        impact: 'Raising awareness about the contributions of women across all fields and addressing gender inequality. The webinar will provide a platform for education and inspiration, helping to break down barriers and encourage more young women and girls to pursue their goals, ultimately working towards greater gender equality in society.',
+        date: 'March 11, 2026'
     },
     7: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Affordable and Clean Energy',
-        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
-        impact: 'Educating and inspiring students through industry expert engagement, promoting knowledge and awareness of clean energy solutions.',
-        date: 'In Progress'
+        content: 'Completed Affordable and Clean Energy through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
+        impact: 'Educated students about sustainable energy solutions and green job opportunities through expert panel discussions, promoting awareness of clean energy alternatives and career paths in sustainability.',
+        date: 'January 2026'
     },
     8: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Decent Work and Economic Growth',
-        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
-        impact: 'Educating and inspiring students through industry expert engagement, promoting understanding of economic growth and decent work opportunities.',
-        date: 'In Progress'
+        content: 'Completed Decent Work and Economic Growth through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
+        impact: 'Informed students about green job opportunities and sustainable economic growth through expert panel discussions, highlighting career paths that contribute to both economic development and environmental sustainability.',
+        date: 'January 2026'
     },
     9: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Industry, Innovation and Infrastructure',
-        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
-        impact: 'Educating and inspiring students through industry expert engagement, promoting innovation and infrastructure development knowledge.',
-        date: 'In Progress'
+        content: 'Completed Industry, Innovation and Infrastructure through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
+        impact: 'Inspired students about innovation in sustainable infrastructure and clean energy technologies through expert panel discussions, promoting understanding of how innovation drives sustainable development.',
+        date: 'January 2026'
     },
     11: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Sustainable Cities and Communities',
-        content: 'Engaging industry experts to educate and inspire students at Saint Malachy\'s Memorial High School and Saint John High School.',
-        impact: 'Educating and inspiring students through industry expert engagement, promoting sustainable community development and urban planning knowledge.',
-        date: 'In Progress'
+        content: 'Completed Sustainable Cities and Communities through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
+        impact: 'Educated students about sustainable community development and how clean energy and green jobs contribute to building more sustainable cities and communities through expert panel discussions.',
+        date: 'January 2026'
     },
     12: { 
         status: 'completed', 
