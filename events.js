@@ -2,10 +2,18 @@
 // Add your events here
 const eventsData = [
     {
+        title: "Women's Day Webinar",
+        description: "In celebration of International Women's Day, 17 by Seventeen will be hosting a Women's Day Webinar on March 11th at 5:00 pm. This event will highlight women in STEM and leadership, with the goal of inspiring students and empowering the next generation. Guest speakers include Tiffany Fields, the Burke-Gafney Observatory Technician at Saint Mary's University, and Jennifer McGill, an entrepreneur, consultant, and co-chair of We Worthy Women. These speakers will share their experiences, challenges, and advice for young women interested in pursuing careers in STEM and leadership. All are welcome to attend, and participation is highly encouraged. Please sign up using the form below to confirm your attendance!",
+        website: "https://docs.google.com/forms/d/e/1FAIpQLScP_vL6U7ciAJ-GydnsbEjUjgml7nNDvCAtfp_8SuOPmSmbjA/viewform?usp=dialog",
+        status: "upcoming", // "active", "upcoming", or "past"
+        date: "March 11, 2026 at 5:00 PM",
+        location: "Online"
+    },
+    {
         title: "Cardboard for Kitty: Helping Paws and People",
         description: "An annual creative fundraising event where teams compete to build innovative cardboard cat homes in just two hours. This year, Cardboard for Kitty is proud to support both RedHead Strays, a local organization that rescues and rehomes approximately 400 stray cats annually, and First Steps Saint John, which supports mothers and babies in our community. Through friendly competition and creativity, participants help make a difference for both paws and people in Saint John. The event is part of the 17 by Seventeen initiative, connecting local action with the UN Sustainable Development Goals.",
         website: "http://cardboardforkitty.org",
-        status: "active", // "active", "upcoming", or "past"
+        status: "upcoming", // "active", "upcoming", or "past"
         date: "TBD 2026", // Add date when available
         location: "Saint John, NB" // Add location when available
     }
@@ -47,19 +55,31 @@ function createEventsGrid() {
         
         if (event.status === 'active') {
             statusBadge = '<span class="event-status active">Active</span>';
-            buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-primary event-website-btn">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-            </a>`;
+            if (event.website) {
+                buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-primary event-website-btn">
+                    <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>`;
+            } else {
+                buttonHTML = '<span class="btn btn-secondary event-website-btn" style="cursor: default;">Registration Coming Soon</span>';
+            }
         } else if (event.status === 'upcoming') {
             statusBadge = '<span class="event-status upcoming">Upcoming</span>';
-            buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-primary event-website-btn">
-                <i class="fas fa-external-link-alt"></i> Learn More
-            </a>`;
+            if (event.website) {
+                buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-primary event-website-btn">
+                    <i class="fas fa-external-link-alt"></i> Register Now
+                </a>`;
+            } else {
+                buttonHTML = '<span class="btn btn-secondary event-website-btn" style="cursor: default;">Registration Coming Soon</span>';
+            }
         } else if (event.status === 'past') {
             statusBadge = '<span class="event-status past">Past Event</span>';
-            buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary event-website-btn">
-                <i class="fas fa-external-link-alt"></i> Visit Website
-            </a>`;
+            if (event.website) {
+                buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary event-website-btn">
+                    <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>`;
+            } else {
+                buttonHTML = '';
+            }
         }
         
         eventCard.innerHTML = `
