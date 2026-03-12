@@ -4,7 +4,8 @@ const eventsData = [
     {
         title: "Women's Day Webinar",
         description: "17 by Seventeen hosted a Women's Day Webinar on March 11th in celebration of International Women's Day. Guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary's University) shared their experiences on following your passion, breaking barriers, and women's empowerment. The webinar highlighted women in STEM and leadership, inspiring students and empowering the next generation.",
-        website: "https://docs.google.com/forms/d/e/1FAIpQLScP_vL6U7ciAJ-GydnsbEjUjgml7nNDvCAtfp_8SuOPmSmbjA/viewform?usp=dialog",
+        website: "https://youtu.be/StE2668q7eY?si=dAmZ4fqyDJLuLoHm",
+        linkLabel: "Watch full recording",
         status: "past",
         date: "March 11, 2026 at 5:00 PM",
         location: "Online"
@@ -13,28 +14,19 @@ const eventsData = [
         title: "Cardboard for Kitty: Helping Paws and People",
         description: "An annual creative fundraising event where teams compete to build innovative cardboard cat homes in just two hours. This year, Cardboard for Kitty is proud to support both RedHead Strays, a local organization that rescues and rehomes approximately 400 stray cats annually, and First Steps Saint John, which supports mothers and babies in our community. Through friendly competition and creativity, participants help make a difference for both paws and people in Saint John. The event is part of the 17 by Seventeen initiative, connecting local action with the UN Sustainable Development Goals.",
         website: "http://cardboardforkitty.org",
-        status: "upcoming", // "active", "upcoming", or "past"
-        date: "TBD 2026", // Add date when available
-        location: "Saint John, NB" // Add location when available
+        status: "upcoming",
+        date: "TBD 2026",
+        location: "Saint John, NB"
     }
-    // Example event structure:
-    // {
-    //     title: "Event Name",
-    //     description: "Brief description of the event",
-    //     website: "https://example.com",
-    //     status: "active", // "active", "upcoming", or "past"
-    //     date: "March 2025",
-    //     location: "Location name"
-    // }
 ];
 
 // Create events grid
 function createEventsGrid() {
     const eventsGrid = document.getElementById('events-grid');
     if (!eventsGrid) return;
-    
+
     eventsGrid.innerHTML = '';
-    
+
     if (eventsData.length === 0) {
         eventsGrid.innerHTML = `
             <div class="no-events">
@@ -45,14 +37,14 @@ function createEventsGrid() {
         `;
         return;
     }
-    
+
     eventsData.forEach(event => {
         const eventCard = document.createElement('div');
         eventCard.className = 'event-card';
-        
+
         let statusBadge = '';
         let buttonHTML = '';
-        
+
         if (event.status === 'active') {
             statusBadge = '<span class="event-status active">Active</span>';
             if (event.website) {
@@ -74,14 +66,15 @@ function createEventsGrid() {
         } else if (event.status === 'past') {
             statusBadge = '<span class="event-status past">Past Event</span>';
             if (event.website) {
+                const buttonText = event.linkLabel || 'Visit Website';
                 buttonHTML = `<a href="${event.website}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary event-website-btn">
-                    <i class="fas fa-external-link-alt"></i> Visit Website
+                    <i class="fas fa-external-link-alt"></i> ${buttonText}
                 </a>`;
             } else {
                 buttonHTML = '';
             }
         }
-        
+
         eventCard.innerHTML = `
             <div class="event-card-header">
                 <h3>${event.title}</h3>
@@ -98,7 +91,7 @@ function createEventsGrid() {
                 ${buttonHTML}
             </div>
         `;
-        
+
         eventsGrid.appendChild(eventCard);
     });
 }
@@ -109,20 +102,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (yearElement) {
         yearElement.textContent = new Date().getFullYear();
     }
-    
+
     createEventsGrid();
-    
+
     // Mobile menu toggle
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
-    
+
     if (hamburger && navMenu) {
         hamburger.addEventListener('click', function() {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
         });
-        
-        // Close menu when clicking on a link
+
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', function() {
                 hamburger.classList.remove('active');
