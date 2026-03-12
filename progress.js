@@ -29,10 +29,10 @@ const journeyData = {
         date: 'September 2024'
     },
     5: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Gender Equality',
-        content: 'Putting together an International Women\'s Day webinar scheduled for March 11th to celebrate and highlight the achievements of women. The webinar will feature discussions about women\'s contributions across various fields, recognize influential women, and inspire young women and girls. This initiative aligns with International Women\'s Day (March 8th), creating a platform for education, empowerment, and recognition of women\'s contributions to society.',
-        impact: 'Raising awareness about the contributions of women across all fields and addressing gender inequality. The webinar will provide a platform for education and inspiration, helping to break down barriers and encourage more young women and girls to pursue their goals, ultimately working towards greater gender equality in society.',
+        content: 'Completed Gender Equality by hosting a Women\'s Day webinar on March 11th with guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary\'s University). They spoke about following your passion, breaking barriers, and women\'s empowerment, inspiring students and the next generation.',
+        impact: 'Created a platform for education and inspiration on women\'s contributions in STEM and leadership. Guest speakers shared their experiences on following your passion and breaking barriers, empowering young women and girls and advancing gender equality.',
         date: 'March 11, 2026'
     },
     7: { 

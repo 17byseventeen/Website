@@ -3,9 +3,9 @@
 const eventsData = [
     {
         title: "Women's Day Webinar",
-        description: "In celebration of International Women's Day, 17 by Seventeen will be hosting a Women's Day Webinar on March 11th at 5:00 pm. This event will highlight women in STEM and leadership, with the goal of inspiring students and empowering the next generation. Guest speakers include Tiffany Fields, the Burke-Gafney Observatory Technician at Saint Mary's University, and Jennifer McGill, an entrepreneur, consultant, and co-chair of We Worthy Women. These speakers will share their experiences, challenges, and advice for young women interested in pursuing careers in STEM and leadership. All are welcome to attend, and participation is highly encouraged. Please sign up using the form below to confirm your attendance!",
+        description: "17 by Seventeen hosted a Women's Day Webinar on March 11th in celebration of International Women's Day. Guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary's University) shared their experiences on following your passion, breaking barriers, and women's empowerment. The webinar highlighted women in STEM and leadership, inspiring students and empowering the next generation.",
         website: "https://docs.google.com/forms/d/e/1FAIpQLScP_vL6U7ciAJ-GydnsbEjUjgml7nNDvCAtfp_8SuOPmSmbjA/viewform?usp=dialog",
-        status: "upcoming", // "active", "upcoming", or "past"
+        status: "past",
         date: "March 11, 2026 at 5:00 PM",
         location: "Online"
     },
