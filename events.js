@@ -15,8 +15,8 @@ const eventsData = [
         description: "An annual creative fundraising event where teams compete to build innovative cardboard cat homes in just two hours. This year, Cardboard for Kitty is proud to support both RedHead Strays, a local organization that rescues and rehomes approximately 400 stray cats annually, and First Steps Saint John, which supports mothers and babies in our community. Through friendly competition and creativity, participants help make a difference for both paws and people in Saint John. The event is part of the 17 by Seventeen initiative, connecting local action with the UN Sustainable Development Goals.",
         website: "http://cardboardforkitty.org",
         status: "upcoming",
-        date: "TBD 2026",
-        location: "Saint John, NB"
+        date: "May 30, 2026",
+        location: "Market Square Atrium, 1 Market Square, Saint John, NB E2L 4Z6"
     }
 ];
 
