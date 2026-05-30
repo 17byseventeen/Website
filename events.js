@@ -1,24 +1,6 @@
 // Events data
 // Add your events here
-const eventsData = [
-    {
-        title: "Women's Day Webinar",
-        description: "17 by Seventeen hosted a Women's Day Webinar on March 11th in celebration of International Women's Day. Guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary's University) shared their experiences on following your passion, breaking barriers, and women's empowerment. The webinar highlighted women in STEM and leadership, inspiring students and empowering the next generation.",
-        website: "https://youtu.be/StE2668q7eY?si=dAmZ4fqyDJLuLoHm",
-        linkLabel: "Watch full recording",
-        status: "past",
-        date: "March 11, 2026 at 5:00 PM",
-        location: "Online"
-    },
-    {
-        title: "Cardboard for Kitty: Helping Paws and People",
-        description: "An annual creative fundraising event where teams compete to build innovative cardboard cat homes in just two hours. This year, Cardboard for Kitty is proud to support both RedHead Strays, a local organization that rescues and rehomes approximately 400 stray cats annually, and First Steps Saint John, which supports mothers and babies in our community. Through friendly competition and creativity, participants help make a difference for both paws and people in Saint John. The event is part of the 17 by Seventeen initiative, connecting local action with the UN Sustainable Development Goals.",
-        website: "http://cardboardforkitty.org",
-        status: "upcoming",
-        date: "May 30, 2026",
-        location: "Market Square Atrium, 1 Market Square, Saint John, NB E2L 4Z6"
-    }
-];
+const eventsData = [];
 
 // Create events grid
 function createEventsGrid() {
@@ -31,8 +13,7 @@ function createEventsGrid() {
         eventsGrid.innerHTML = `
             <div class="no-events">
                 <i class="fas fa-calendar-check"></i>
-                <h3>No events available at the moment</h3>
-                <p>Check back soon for upcoming events!</p>
+                <h3>No upcoming events</h3>
             </div>
         `;
         return;
