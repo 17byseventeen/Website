@@ -40,25 +40,6 @@ const progressData = {
     17: { status: 'completed', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
 };
 
-// Countdown timer
-function updateCountdown() {
-    const targetDate = new Date('2026-06-24T00:00:00').getTime();
-    const now = new Date().getTime();
-    const timeLeft = targetDate - now;
-
-    if (timeLeft > 0) {
-        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-        document.getElementById('days').textContent = days.toString().padStart(3, '0');
-        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-        document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-    }
-}
-
 // Create SDG grid
 function createSDGWheel() {
     const wheel = document.getElementById('sdg-grid');
@@ -161,10 +142,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (yearElement) {
         yearElement.textContent = new Date().getFullYear();
     }
-
-    // Initialize countdown
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
 
     // Create SDG grid
     createSDGWheel();
