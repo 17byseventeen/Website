@@ -36,10 +36,11 @@ const journeyData = {
         date: 'March 11, 2026'
     },
     6: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Clean Water and Sanitation',
-        content: 'In progress on Clean Water and Sanitation by planning water conservation challenges to promote responsible water use, habits, and stewardship at school and in my community.',
-        impact: 'Expected to grow awareness of how saving and protecting water supports health, sanitation, and equitable access to this essential resource.'
+        content: 'Completed Clean Water and Sanitation by conducting a school-wide survey on water consumption and encouraging the reduction of water usage across my school community.',
+        impact: 'Raised awareness of everyday water use at school and motivated students and staff to adopt habits that reduce consumption and support sustainable water stewardship.',
+        date: 'May 2026'
     },
     7: { 
         status: 'completed', 
@@ -63,10 +64,11 @@ const journeyData = {
         date: 'January 2026'
     },
     10: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Reduced Inequalities',
-        content: 'In progress on Reduced Inequalities through the Cardboard for Kitty event (https://cardboardforkitty.org), working with Brilliant Labs and RedHead Strays to mobilize my school and community around creative reuse, fundraising, and support for people and causes that need it.',
-        impact: 'Expected to broaden participation in giving, spotlight community needs, and show how youth-led action can help level the playing field for others.'
+        content: 'Completed Reduced Inequalities through the Cardboard for Kitty 2026 event, where we donated to First Steps, helping moms and babies in our community.',
+        impact: 'Supported mothers and babies through First Steps Saint John, helping reduce inequalities by directing fundraising toward families who need community care and resources.',
+        date: 'May 2026'
     },
     11: { 
         status: 'completed', 
@@ -78,9 +80,9 @@ const journeyData = {
     12: { 
         status: 'completed', 
         title: 'Responsible Consumption and Production',
-        content: 'Completed the "Cardboard for Kitty" fundraiser with Brilliant Labs and RedHead Strays, promoting responsible consumption and sustainable practices.',
-        impact: 'Raised awareness about sustainable alternatives and supported animal welfare through creative fundraising.',
-        date: 'November 2024'
+        content: 'Completed Responsible Consumption and Production through the 2026 Cardboard for Kitty fundraiser, where teams had to use cardboard and recyclable materials to build their cat home.',
+        impact: 'Promoted responsible consumption by challenging teams to create cat homes from cardboard and recyclable materials only, demonstrating creative reuse instead of new waste.',
+        date: 'May 2026'
     },
     13: { 
         status: 'completed', 
@@ -90,10 +92,11 @@ const journeyData = {
         date: 'April 2024'
     },
     14: { 
-        status: 'in-progress', 
+        status: 'completed', 
         title: 'Life Below Water',
-        content: 'In progress on Life Below Water by planning water conservation challenges that tie everyday water choices to healthier rivers, lakes, estuaries, and coastal waters.',
-        impact: 'Expected to deepen understanding that less waste and smarter water use upstream helps protect aquatic habitats and the species that depend on them.'
+        content: 'Completed Life Below Water by inviting guest speaker Melissa Moody to talk about Indigenous fisheries.',
+        impact: 'Educated students and the community about Indigenous fisheries and marine stewardship, deepening understanding of how traditional knowledge and sustainable practices protect life below water.',
+        date: 'May 2026'
     },
     15: { 
         status: 'completed', 
