@@ -24,9 +24,9 @@ const journeyData = {
     4: { 
         status: 'completed', 
         title: 'Quality Education',
-        content: 'Completed quality education through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program, educating kids about sustainable alternatives and environmental science.',
-        impact: 'Helped students improve their academic performance and access to learning resources.',
-        date: 'September 2024'
+        content: 'Completed Quality Education by starting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.',
+        impact: 'Shared learning about the UN SDGs through podcast episodes and highlighted student-led projects nationwide, helping more young people discover how peers are taking action on sustainable development.',
+        date: 'January 2026 – June 2026'
     },
     5: { 
         status: 'completed', 
@@ -87,9 +87,9 @@ const journeyData = {
     13: { 
         status: 'completed', 
         title: 'Climate Action',
-        content: 'Completed climate action through teaching youth about bio-making through hands-on Brilliant Labs bio-making afterschool program and experimenting with different bio-making recipes to create more sustainable and earth-friendly options opposed to plastic bags or single-use plastic things.',
-        impact: 'Educated young people about sustainable alternatives and reduced plastic waste through innovative bio-making solutions.',
-        date: 'April 2024'
+        content: 'Completed Climate Action through the Cardboard for Kitty event, where teams incorporated recyclable materials into their cat homes; by attending many climate conferences; and by promoting sustainability through the UNESCO club at our school.',
+        impact: 'Took action on climate through creative reuse at Cardboard for Kitty, deepened understanding by attending climate conferences, and advanced sustainability at school through UNESCO club leadership and initiatives.',
+        date: 'January 2026 – May 2026'
     },
     14: { 
         status: 'completed', 
@@ -117,7 +117,7 @@ const journeyData = {
         title: 'Partnerships for the Goals',
         content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.',
         impact: 'Built strong partnerships with youth leaders across Canada, creating a collaborative network that amplifies the impact of sustainable development initiatives and demonstrates the power of working together.',
-        date: 'January 2025'
+        date: 'September 2025'
     }
 };
 
