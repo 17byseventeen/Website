@@ -21,7 +21,7 @@ const sdgData = [
 
 // Progress data for each SDG
 const progressData = {
-    1: { status: 'in progress', content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.' },
+    1: { status: 'in-progress', content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.' },
     2: { status: 'completed', content: 'Completed Zero Hunger by collaborating with Street Team Saint John to make a meal for the homeless, addressing food insecurity and hunger in our community.' },
     3: { status: 'completed', content: 'Completed Good Health and Well-being by donating food to First Steps, supporting families and contributing to nutrition and well-being in the community.' },
     4: { status: 'completed', content: 'Completed Quality Education by starting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
