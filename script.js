@@ -21,22 +21,22 @@ const sdgData = [
 
 // Progress data for each SDG
 const progressData = {
-    1: { status: 'incompleted', content: 'Currently brainstorming ideas on how to take action for this UNSDG!' },
-    2: { status: 'incomplete', content: 'In the process of finding an idea!' },
-    3: { status: 'incompleted', content: 'Figuring out ways to execute our idea.' },
+    1: { status: 'pending', content: 'Currently brainstorming ideas on how to take action for this UNSDG!' },
+    2: { status: 'pending', content: 'In the process of finding an idea!' },
+    3: { status: 'pending', content: 'Figuring out ways to execute our idea.' },
     4: { status: 'completed', content: 'Completed Quality Education by hosting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
-    5: { status: 'incompleted', content: 'Planning projects around gender equality' },
-    6: { status: 'incompleted', content: 'Still thinking...' },
-    7: { status: 'incompleted', content: 'ideas are on there way! ' },
-    8: { status: 'incompleted', content: 'To be determined' },
-    9: { status: 'incompleted', content: 'Still processing' },
-    10: { status: 'incompleted', content: 'Coming soon...' },
-    11: { status: 'incompleted', content: 'On its way!' },
+    5: { status: 'pending', content: 'Planning projects around gender equality' },
+    6: { status: 'pending', content: 'Still thinking...' },
+    7: { status: 'pending', content: 'ideas are on there way! ' },
+    8: { status: 'pending', content: 'To be determined' },
+    9: { status: 'pending', content: 'Still processing' },
+    10: { status: 'pending', content: 'Coming soon...' },
+    11: { status: 'pending', content: 'On its way!' },
     12: { status: 'completed', content: 'Completed Responsible Consumption and Production through a clothing drive at my school, emphasizing the importance of being responsible in how many clothes we consume, and helping students give there un-used clothes to a good cause.' },
-    13: { status: 'incompleted', content: 'More climate initiatives are coming your way!' },
+    13: { status: 'pending', content: 'More climate initiatives are coming your way!' },
     14: { status: 'completed', content: 'Completed Life Below Water by organizing a beach clean-up with the AP Seminar class at my school.' },
-    15: { status: 'incompleted', content: 'Continuing to think.' },
-    16: { status: 'incompleted', content: 'Considering possible actions.' },
+    15: { status: 'pending', content: 'Continuing to think.' },
+    16: { status: 'pending', content: 'Considering possible actions.' },
     17: { status: 'completed', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
 };
 
