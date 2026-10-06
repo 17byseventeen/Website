@@ -21,22 +21,22 @@ const sdgData = [
 
 // Progress data for each SDG
 const progressData = {
-    1: { status: 'completed', content: 'Completed No Poverty through organizing clothing drives at my school and another high school in my area, collecting and distributing clothing to help those in need and reduce poverty in my community.' },
-    2: { status: 'completed', content: 'Completed Zero Hunger by collaborating with Street Team Saint John to make a meal for the homeless, addressing food insecurity and hunger in our community.' },
-    3: { status: 'completed', content: 'Completed Good Health and Well-being by donating food to First Steps, supporting families and contributing to nutrition and well-being in the community.' },
-    4: { status: 'completed', content: 'Completed Quality Education by starting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
-    5: { status: 'completed', content: 'Completed Gender Equality by hosting a Women\'s Day webinar on March 11th with guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary\'s University). They spoke about following your passion, breaking barriers, and women\'s empowerment, inspiring students and the next generation.' },
-    6: { status: 'completed', content: 'Completed Clean Water and Sanitation by conducting a school-wide survey on water consumption and encouraging the reduction of water usage across my school community.' },
-    7: { status: 'completed', content: 'Completed Affordable and Clean Energy through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.' },
-    8: { status: 'completed', content: 'Completed Decent Work and Economic Growth through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.' },
-    9: { status: 'completed', content: 'Completed Industry, Innovation and Infrastructure through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.' },
-    10: { status: 'completed', content: 'Completed Reduced Inequalities through the Cardboard for Kitty 2026 event, where we donated to First Steps, helping moms and babies in our community.' },
-    11: { status: 'completed', content: 'Completed Sustainable Cities and Communities through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.' },
-    12: { status: 'completed', content: 'Completed Responsible Consumption and Production through the 2026 Cardboard for Kitty fundraiser, where teams had to use cardboard and recyclable materials to build their cat home.' },
-    13: { status: 'completed', content: 'Completed Climate Action through the Cardboard for Kitty event, where teams incorporated recyclable materials into their cat homes; by attending many climate conferences; and by promoting sustainability through the UNESCO club at our school.' },
-    14: { status: 'completed', content: 'Completed Life Below Water by inviting guest speaker Melissa Moody to talk about Indigenous fisheries.' },
-    15: { status: 'completed', content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!' },
-    16: { status: 'completed', content: 'Completed Peace, Justice and Strong Institutions by running a student vote and presenting the student vote initiative to all civics classrooms at my school, strengthening democratic participation and civic engagement.' },
+    1: { status: 'incomplete', content: 'Currently brainstorming ideas on how to take action for this UNSDG!' },
+    2: { status: 'incomplete', content: 'In the process of finding an idea!' },
+    3: { status: 'incomplete', content: 'Figuring out ways to execute our idea.' },
+    4: { status: 'completed', content: 'Completed Quality Education by hosting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
+    5: { status: 'incomplete', content: 'Planning projects around gender equality' },
+    6: { status: 'incomplete', content: 'Still thinking...' },
+    7: { status: 'incomplete', content: 'ideas are on there way! ' },
+    8: { status: 'incomplete', content: 'To be determined' },
+    9: { status: 'incomplete', content: 'Still processing' },
+    10: { status: 'incomplete', content: 'Coming soon...' },
+    11: { status: 'incomplete', content: 'On its way!' },
+    12: { status: 'completed', content: 'Completed Responsible Consumption and Production through a clothing drive at my school, emphasizing the importance of being responsible in how many clothes we consume, and helping students give there un-used clothes to a good cause.' },
+    13: { status: 'incomplete', content: 'More climate initiatives are coming your way!' },
+    14: { status: 'completed', content: 'Completed Life Below Water by organizing a beach clean-up with the AP Seminar class at my school.' },
+    15: { status: 'incomplete', content: 'Continuing to think.' },
+    16: { status: 'incomplete', content: 'Considering possible actions.' },
     17: { status: 'completed', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
 };
 
