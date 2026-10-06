@@ -32,7 +32,7 @@ const progressData = {
     9: { status: 'pending', content: 'Still processing' },
     10: { status: 'pending', content: 'Coming soon...' },
     11: { status: 'pending', content: 'On its way!' },
-    12: { status: 'completed', content: 'Completed Responsible Consumption and Production through a clothing drive at my school, emphasizing the importance of being responsible in how many clothes we consume, and helping students give there un-used clothes to a good cause.' },
+    12: { status: 'completed', content: 'Completed Responsible Consumption and Production through a clothing drive at my school, emphasizing the importance of being responsible in how many clothes we consume, and helping students give their un-used clothes to a good cause.' },
     13: { status: 'pending', content: 'More climate initiatives are coming your way!' },
     14: { status: 'completed', content: 'Completed Life Below Water by organizing a beach clean-up with the AP Seminar class at my school.' },
     15: { status: 'pending', content: 'Continuing to think.' },
