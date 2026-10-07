@@ -42,9 +42,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "Olivia Cheng",
-        role: "Former Ontario Representative for 17 By Seventeen",
-        bio: "My name is Olivia Cheng and I'm a grade 11 student in Ontario. I'm passionate about the arts, environmental stewardship, and building connections in my community. I run a youth-led art nonprofit that provides free art lessons to underprivileged students in Ontario because I believe creativity and a welcoming space can inspire people to view the world with possibility. I've represented Canadian and global youth on the topic of nature-based education at the National Framework for Environmental Learning as well as the IUCN World Conservation Congress. From being a part of my school's sustainability council to organizing the annual student-body art show, I am motivated to highlight the power of youth engagement. As the Ontario representative for 17 By Seventeen, I'm excited to use my strengths to grow a network of Canadian youth dedicated to completing the UN SDGs.",
+        name: "Eva Matheson",
+        role: "Alberta Representative for 17 By Seventeen",
+        bio: "Hey, I’m Eva Matheson, and I’m so thrilled to be working with such a wonderful group. I’m an artist, musical theatre enthusiast, and I’m super passionate about learning languages. I look forward to driving positive change within my community. Thank you, Grace, for founding this fantastic organization. ",
         photo: "images/olivia-photo.jpg",
         social: {
             // Add social media links if available
