@@ -4,7 +4,7 @@ const teamData = [
     {
         name: "Grace Totten",
         role: "Founder",
-        bio: "Founder of the 17 by 17 Challenge, working to complete all 17 UN Sustainable Development Goals before turning 17.",
+        bio: "Founder of the 17 by 17 Initative.",
         photo: "images/grace-photo.png",
         social: {
             instagram: "https://www.instagram.com/17byseventeen_/"
@@ -12,8 +12,11 @@ const teamData = [
     },
     {
         name: "Leah Sherwood",
-        role: "Editor and Social Media Manager for 17 By Seventeen",
-        bio: "Hi! My name is Leah Sherwood and I am a grade 10 student in Saint John, New Brunswick. Some of my passions include the environment, the arts, public speaking, and working with others, both to learn and to work toward a common goal. I am a grade representative on my student council, a member of the UNESCO club at my school, a member of my school's choir and drama clubs, have co-taught a biomaking program, and I am working on launching a project of my own relating to sustainability and environmental education and action. I love helping and making an impact on people in my community, and I often find myself volunteering and taking part in charitable events and action projects in my community. I am honoured to be a part of the 17 By Seventeen challenge, and am so excited to see where it takes us.",
+        role: " 2026-2027 Challenge Lead",
+        bio: "My name is Leah Sherwood, and I am the current 17 by Seventeen challenge Lead. Across this next year, my goal is to spark a desire to make a difference by leading through example and building a community that fosters conversations about real change and action. I am always willing to put in the work to achieve a better outcome, whether through proposals and grant applications to start a composting program in my school or by bringing a positive and hardworking attitude to numerous clubs, teams, and other local programs. I am passionate about our environment, STEAM, mental health and social advocacy, and so much more. 
+
+        Having started my journey with 17 by Seventeen as a volunteer, then as editor and social media manager, I am so grateful that I get to carry the torch for the next leg of the 17 by Seventeen challenge.
+I look forward to growing the initiative’s impact and furthering the values of our founder with the help of the rest of the 17 by Seventeen team. ",
         photo: "images/leah-photo.jpg",
         social: {
             // Add social media links if available
