@@ -24,8 +24,8 @@ const teamData = [
 // Former team member data
 const formerTeamData = [
     {
-        name: "Willow McGrath",
-        role: "Former New Brunswick Representative for 17 By Seventeen",
+        name: "Viki Herrera",
+        role: "British Colombia Representative for 17 By Seventeen",
         bio: "My name is Willow McGrath and I'm a grade 12 student in Saint John NB. I am extremely passionate about the environment and love working with people. I am a camp counsellor and spend all of my time outside in the summer, while providing experiential learning to campers and more. I also volunteer for a local organization that works to protect the biodiversity in my city. I lead the UNESCO club at my school, which has given my school a green space and helped get feminine hygiene products in every bathroom, along with many other projects last year. This year we'll create more greenspaces, provide outdoor education and highlight other SDGs through projects such as a sexual assault support day and awareness campaigns about AI. I've represented Canadian youth on matters of environmental education, human rights and the SDGs at many conferences including the National Forum for Environmental Learning, AP Nature Ed/Black Diaspra conferences and CCUNESCO conferences. I'm also extremely grateful to have had the opportunity to represent the younger generation at the IUCNs World Conservation Congress this past October.",
         photo: "images/willow-photo.jpg",
         social: {
