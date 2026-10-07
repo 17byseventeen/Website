@@ -33,9 +33,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "Anjani Shah",
-        role: "Former Ontario Representative for 17 By Seventeen",
-        bio: "Hi! My name is Anjani Shah, and I am a 16 year old student at Assumption College School who's passionate about making a difference in my school, community, and the world. I am a strong believer that real change starts with small actions, and I try my best to live that every day through leadership, volunteering, and service. Some things I am a part of at school are Model UN, Mock Trial, and STEM, where I get to challenge myself and grow as a leader and problem-solver. I am also part of the 180 Team, which focuses on helping our community by taking part in projects that support people through local services such as therapy centres and soup kitchens. I am also a Prefect; where I help organize school events and tutor students who need academic support. Now, a sneak peak of my life outside of school. My culture and religion are a huge part of me in which through my temple's charity (BAPS Charities), I help raise funds for cancer research and breast cancer awareness as well as supporting local food bank initiatives. I also teach young girls at my temple every Saturday about my culture and faith, and through Army Cadets, I have raised money to support Canadian Armed Forces members, Veterans, and their families. Being part of the 17bySeventeen movement motivates me to take action toward the United Nations Sustainable Development Goals (UNSDGs) and remind others that you're never too young to make a difference. Together, we can help build a kinder, more sustainable world, one step at a time.",
+        name: "Youna Wang",
+        role: "Québec Representative for 17 By Seventeen",
+        bio: " Hi, my name is Youna. I'm based in Montreal, Quebec. I consider myself a curious and open-minded person. I love to learn about new things, and I care about the big concepts in our society today. I want to protect the environment; I want to make a change at a young age, and I believe we all can do it. I balance my studies with dragon boating. I love doing sports so much, I always believe that health is wealth.",
         photo: "images/anjani-photo.jpg",
         social: {
             // Add social media links if available
