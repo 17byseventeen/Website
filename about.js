@@ -13,10 +13,7 @@ const teamData = [
     {
         name: "Leah Sherwood",
         role: " 2026-2027 Challenge Lead",
-        bio: "My name is Leah Sherwood, and I am the current 17 by Seventeen challenge Lead. Across this next year, my goal is to spark a desire to make a difference by leading through example and building a community that fosters conversations about real change and action. I am always willing to put in the work to achieve a better outcome, whether through proposals and grant applications to start a composting program in my school or by bringing a positive and hardworking attitude to numerous clubs, teams, and other local programs. I am passionate about our environment, STEAM, mental health and social advocacy, and so much more. 
-
-        Having started my journey with 17 by Seventeen as a volunteer, then as editor and social media manager, I am so grateful that I get to carry the torch for the next leg of the 17 by Seventeen challenge.
-I look forward to growing the initiative’s impact and furthering the values of our founder with the help of the rest of the 17 by Seventeen team. ",
+        bio: "My name is Leah Sherwood, and I am the current 17 by Seventeen challenge Lead. Across this next year, my goal is to spark a desire to make a difference by leading through example and building a community that fosters conversations about real change and action. I am always willing to put in the work to achieve a better outcome, whether through proposals and grant applications to start a composting program in my school or by bringing a positive and hardworking attitude to numerous clubs, teams, and other local programs. I am passionate about our environment, STEAM, mental health and social advocacy, and so much more.         Having started my journey with 17 by Seventeen as a volunteer, then as editor and social media manager, I am so grateful that I get to carry the torch for the next leg of the 17 by Seventeen challenge. I look forward to growing the initiative’s impact and furthering the values of our founder with the help of the rest of the 17 by Seventeen team. ",
         photo: "images/leah-photo.jpg",
         social: {
             // Add social media links if available
