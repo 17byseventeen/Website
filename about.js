@@ -51,9 +51,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "Carter Mochinski",
-        role: "Former British Columbia Representative for 17 By Seventeen",
-        bio: "Hello! My name is Carter Mochinski, and I am from Lake Country, BC. I'm 17 years old in grade 12 at George Elliot Secondary School. I am so excited to join 17bySeventeen and make a difference in our communities. My passion for making a difference is motivated most by SDG 10, Reducing Inequalities and 13 Climate Action. I dream of a Canada and a world where all are valued and appreciated, and as a world that values protecting our environment and preserving our beautiful land. I call on the government to put talk into action and strive to achieve the UN SDGs by 2030. I am serving on multiple councils and working with non-profit organizations where I am advocating for the goals. I am currently serving a term on Lake Country Council as a Youth Councillor and on the SD23 District Student Council. I am going to COP30 in Bélem, Brazil, with CGE as the Global Head Reporter. I will also be on a couple of panels at COP30 representing BC Parks Foundation and CGE. I can't wait to take action with 17bySeventeen as well as educate our communities on the 17 Sustainable Development Goals. 17bySeventeen brings together youth with powerful connections, clearly identifying an important goal to achieve all the goals before it, SDG 17, Partnership for the Goals, on a national level. Because if we don't work together as a society, how are we going to achieve our global goals?",
+        name: "TBD",
+        role: "none",
+        bio: "This spot on the team could belong to you!",
         photo: "images/carter-photo.jpg",
         social: {
             // Add social media links if available
@@ -69,9 +69,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "María José Amor",
-        role: "Former Argentina Representative for 17 By Seventeen",
-        bio: "¡Hola! My name is María José Amor, I'm 18 years old and I come from Buenos Aires, Argentina. As the newest member, I'm committed to creating social and environmental impact in my country, but also proud to represent Argentina as part of this project. I've always tried to be involved in community and sustainability-focused projects, including planning a native plant nursery, creating and participating in local volunteering opportunities, and, more recently, contributing to youth advocacy at the World Conservation Congress. Growing up in an area affected by events like wildfires, water pollution, and species loss has helped to fuel my interest in sustainable development and reinforced my belief that the SDGs must be integrated into every aspect of my life: as an individual, within my institutions, and as an active citizen. Joining this project is an exciting opportunity to collaborate with inspiring people, contribute my perspective, and help advance meaningful and hopefully long-term impact while representing my country and learning from others.",
+        name: "TBD",
+        role: "none",
+        bio: "This spot on the team could belong to you!",
         photo: "images/maria-photo.png",
         social: {
             // Add social media links if available
@@ -80,9 +80,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "Mateo Porter Partida",
-        role: "Former British Columbia Representative for 17 By Seventeen",
-        bio: "My name is Mateo Porter Partida, and I am an 18-year-old Mexican student living in Canada with a deep passion for marine ecosystems and sustainability. As I navigate my final year of high school, I aspire to study marine biology and explore ways to build a greener, more environmentally friendly community in my city – one of my recent projects was creating a compost system in my school. Besides this project, I am very involved in my school and community. From Grad President to Global Lead Speaker for the IUCN 2025 World Conservation Congress, my passion for leaving a positive impact on the planet has taken me places I only ever dreamed of. I want to give future generations the chance to experience the beautiful and mesmerizing world we live in today, and I dream of a future where humans and nature live in harmony.",
+        name: "TBD",
+        role: "none",
+        bio: "This spot on the team could belong to you!",
         photo: "images/mateo-photo.jpg",
         social: {
             // Add social media links if available
