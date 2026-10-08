@@ -8,116 +8,116 @@ const journeyData = {
         date: ''
     },
     2: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Zero Hunger',
-        content: 'Completed Zero Hunger by collaborating with Street Team Saint John to make a meal for the homeless, addressing food insecurity and hunger in our community.',
-        impact: 'Provided nutritious meals to homeless individuals in Saint John, directly addressing hunger and food insecurity while building community connections and support.',
-        date: 'December 2025'
+        content: '',
+        impact: '',
+        date: ''
     },
     3: { 
-        status: 'completed', 
+        status: 'Pending', 
         title: 'Good Health and Well-being',
-        content: 'Completed Good Health and Well-being by donating food to First Steps, supporting families and contributing to nutrition and well-being in the community.',
-        impact: 'Helped provide food to people supported by First Steps, contributing to health and well-being through community care and access to nutritious food.',
-        date: 'May 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     4: { 
         status: 'completed', 
         title: 'Quality Education',
-        content: 'Completed Quality Education by starting an educational podcast about the UN SDGs to bring awareness to student projects across Canada.',
+        content: 'Completed Quality Education by hosting the 17 by Seventeen educational podcast about the UN SDGs to bring awareness to student projects across Canada.',
         impact: 'Shared learning about the UN SDGs through podcast episodes and highlighted student-led projects nationwide, helping more young people discover how peers are taking action on sustainable development.',
-        date: 'January 2026 – June 2026'
+        date: 'September 2026'
     },
     5: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Gender Equality',
-        content: 'Completed Gender Equality by hosting a Women\'s Day webinar on March 11th with guest speakers Jennifer McGill (entrepreneur, consultant, and co-chair of We Worthy Women) and Tiffany Fields (Burke-Gafney Observatory Technician at Saint Mary\'s University). They spoke about following your passion, breaking barriers, and women\'s empowerment, inspiring students and the next generation.',
-        impact: 'Created a platform for education and inspiration on women\'s contributions in STEM and leadership. Guest speakers shared their experiences on following your passion and breaking barriers, empowering young women and girls and advancing gender equality.',
-        date: 'March 11, 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     6: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Clean Water and Sanitation',
-        content: 'Completed Clean Water and Sanitation by conducting a school-wide survey on water consumption and encouraging the reduction of water usage across my school community.',
-        impact: 'Raised awareness of everyday water use at school and motivated students and staff to adopt habits that reduce consumption and support sustainable water stewardship.',
-        date: 'May 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     7: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Affordable and Clean Energy',
-        content: 'Completed Affordable and Clean Energy through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
-        impact: 'Educated students about sustainable energy solutions and green job opportunities through expert panel discussions, promoting awareness of clean energy alternatives and career paths in sustainability.',
-        date: 'January 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     8: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Decent Work and Economic Growth',
-        content: 'Completed Decent Work and Economic Growth through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
-        impact: 'Informed students about green job opportunities and sustainable economic growth through expert panel discussions, highlighting career paths that contribute to both economic development and environmental sustainability.',
-        date: 'January 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     9: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Industry, Innovation and Infrastructure',
-        content: 'Completed Industry, Innovation and Infrastructure through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
-        impact: 'Inspired students about innovation in sustainable infrastructure and clean energy technologies through expert panel discussions, promoting understanding of how innovation drives sustainable development.',
-        date: 'January 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     10: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Reduced Inequalities',
-        content: 'Completed Reduced Inequalities through the Cardboard for Kitty 2026 event, where we donated to First Steps, helping moms and babies in our community.',
-        impact: 'Supported mothers and babies through First Steps Saint John, helping reduce inequalities by directing fundraising toward families who need community care and resources.',
-        date: 'May 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     11: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Sustainable Cities and Communities',
-        content: 'Completed Sustainable Cities and Communities through hosting a panel of experts in energy and sustainability who came to Saint Malachy\'s High School to talk about sustainable energy and green jobs, and answered questions based on the UN SDGs.',
-        impact: 'Educated students about sustainable community development and how clean energy and green jobs contribute to building more sustainable cities and communities through expert panel discussions.',
-        date: 'January 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     12: { 
         status: 'completed', 
         title: 'Responsible Consumption and Production',
-        content: 'Completed Responsible Consumption and Production through the 2026 Cardboard for Kitty fundraiser, where teams had to use cardboard and recyclable materials to build their cat home.',
-        impact: 'Promoted responsible consumption by challenging teams to create cat homes from cardboard and recyclable materials only, demonstrating creative reuse instead of new waste.',
-        date: 'May 2026'
+        content: 'Completed Responsible Consumption and Production by organizing a clothing drive at my school and promoting sustainable practices',
+        impact: 'Promoted responsible consumption by bringing awareness to the harms of consumer culture and ecouraging my peers to donate clothes they do not wear anymore.',
+        date: 'September 2026 - October 2026'
     },
     13: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Climate Action',
-        content: 'Completed Climate Action through the Cardboard for Kitty event, where teams incorporated recyclable materials into their cat homes; by attending many climate conferences; and by promoting sustainability through the UNESCO club at our school.',
-        impact: 'Took action on climate through creative reuse at Cardboard for Kitty, deepened understanding by attending climate conferences, and advanced sustainability at school through UNESCO club leadership and initiatives.',
-        date: 'January 2026 – May 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     14: { 
         status: 'completed', 
         title: 'Life Below Water',
-        content: 'Completed Life Below Water by inviting guest speaker Melissa Moody to talk about Indigenous fisheries.',
-        impact: 'Educated students and the community about Indigenous fisheries and marine stewardship, deepening understanding of how traditional knowledge and sustainable practices protect life below water.',
-        date: 'May 2026'
+        content: 'Completed Life Below Water by organizing a beach clean-up in collaboration with my AP Seminar class.',
+        impact: 'Encouraged students to pick up single-use plastic from our local beach and sidewalks, and explained the importance of keeping our city clean.',
+        date: 'September 2026'
     },
     15: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Life on Land',
-        content: 'Completed life on land protection through organizing a beach clean-up at Dominion Park Beach in Saint John, NB for World Clean-up Day with friend Willow McGrath. The Centre of Global Education also recognized our action!',
-        impact: 'Helped protect local ecosystems and marine life by removing harmful waste from the beach, contributing to cleaner oceans and healthier land environments.',
-        date: 'September 2025'
+        content: '',
+        impact: '',
+        date: ''
     },
     16: { 
-        status: 'completed', 
+        status: 'pending', 
         title: 'Peace, Justice and Strong Institutions',
-        content: 'Completed Peace, Justice and Strong Institutions by running a student vote and presenting the student vote initiative to all civics classrooms at my school, strengthening democratic participation and civic engagement.',
-        impact: 'Encouraged democratic participation through a student vote and spread awareness of civic processes across the school, building stronger institutional engagement among students.',
-        date: 'May 2026'
+        content: '',
+        impact: '',
+        date: ''
     },
     17: { 
         status: 'completed', 
         title: 'Partnerships for the Goals',
         content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.',
         impact: 'Built strong partnerships with youth leaders across Canada, creating a collaborative network that amplifies the impact of sustainable development initiatives and demonstrates the power of working together.',
-        date: 'September 2025'
+        date: 'September 2026'
     }
 };
 
