@@ -4,7 +4,7 @@ const teamData = [
     {
         name: "Grace Totten",
         role: "Founder",
-        bio: "Founder of the 17 by 17 Initative.",
+        bio: "Founder of the 17 by Seventeen Initiative. Need to get in contact with the founder? Email Grace@17bySeventeen.org.",
         photo: "images/grace-photo.png",
         social: {
             instagram: "https://www.instagram.com/17byseventeen_/"
