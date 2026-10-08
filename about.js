@@ -51,9 +51,9 @@ const formerTeamData = [
         }
     },
     {
-        name: "TBD",
-        role: "none",
-        bio: "This spot on the team could belong to you!",
+        name: "Anu Dashtseren",
+        role: "Editor and Social Media Manager",
+        bio: "",
         photo: "images/carter-photo.jpg",
         social: {
             // Add social media links if available
