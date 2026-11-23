@@ -8,7 +8,7 @@ const journeyData = {
         date: ''
     },
     2: { 
-        status: 'pending', 
+        status: 'in progress', 
         title: 'Zero Hunger',
         content: '',
         impact: '',
