@@ -22,9 +22,9 @@ const sdgData = [
 // Progress data for each SDG
 const progressData = {
     1: { status: 'pending', content: 'Brainstorming...' },
-    2: { status: 'in progress', content: 'Organizing a community food drive!' },
+    2: { status: 'in-progress', content: 'Organizing a community food drive!' },
     3: { status: 'pending', content: 'Organizing ideas...' },
-    4: { status: 'complete', content: 'Completed Quality Education by hosting the 17 by Seventeen educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
+    4: { status: 'completed', content: 'Completed Quality Education by hosting the 17 by Seventeen educational podcast about the UN SDGs to bring awareness to student projects across Canada.' },
     5: { status: 'pending', content: 'Having Conversations...' },
     6: { status: 'pending', content: 'Thinking About It. ' },
     7: { status: 'pending', content: 'Pending...' },
@@ -32,12 +32,12 @@ const progressData = {
     9: { status: 'pending', content: 'Brain Working...' },
     10: { status: 'pending', content: 'Laying it out...' },
     11: { status: 'pending', content: 'Coming Soon...' },
-    12: { status: 'complete', content: 'Completed Responsible Conusmption and Production by organizing a clothing drive within my school, and educating about consumer culture' },
+    12: { status: 'completed', content: 'Completed Responsible Conusmption and Production by organizing a clothing drive within my school, and educating about consumer culture' },
     13: { status: 'pending', content: 'Coming soon...' },
-    14: { status: 'complete', content: 'Completed Life Below Water by organizing a beach clean-up in collaboration with my AP Seminar class.' },
+    14: { status: 'completed', content: 'Completed Life Below Water by organizing a beach clean-up in collaboration with my AP Seminar class.' },
     15: { status: 'pending', content: 'Thinking...' },
     16: { status: 'pending', content: 'Coming Soon...' },
-    17: { status: 'complete', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
+    17: { status: 'completed', content: 'Completed Partnership for the Goals by partnering with multiple youth leaders across Canada to work together on achieving all 17 Sustainable Development Goals, building a collaborative network of passionate young people dedicated to making a difference.' }
 };
 
 // Create SDG grid
